@@ -1,4 +1,4 @@
-<header class="banner" style="background-image: url(@asset('images/moln.jpg'));">
+<header class="banner cloudbanner" style="background-image: url(@asset('images/moln.jpg'));">
     <img src="@asset('images/cloud_1.png')" class="clouds" id="cloud1" />
     <img src="@asset('images/cloud_2.png')" class="clouds" id="cloud2" />
     <img src="@asset('images/cloud_3.png')" class="clouds" id="cloud3" />
