@@ -1,10 +1,4 @@
 <header class="banner cloudbanner" style="background-image: url(@asset('images/moln.jpg'));">
-    <img src="@asset('images/cloud_1.png')" class="clouds" id="cloud1" />
-    <img src="@asset('images/cloud_2.png')" class="clouds" id="cloud2" />
-    <img src="@asset('images/cloud_3.png')" class="clouds" id="cloud3" />
-    <img src="@asset('images/cloud_1.png')" class="clouds" id="cloud4" />
-    <img src="@asset('images/cloud_2.png')" class="clouds" id="cloud5" />
-    <img src="@asset('images/cloud_3.png')" class="clouds" id="cloud6" />
 
     <div class="header-text container d-flex flex-column justify-content-center align-items-center">
         <h1 class="title text-center">Lorem ipsum <span class="text-secondary">dolor</span> sit amet</h1>
