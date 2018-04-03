@@ -1,0 +1,1 @@
+@extends('layouts.panel', ['panelimage' => 'https://placebeard.it/1920/1080'])

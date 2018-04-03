@@ -37,6 +37,18 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+    background-size: cover;
+    background-position: center;
+
+    video {
+      display: none;
+
+      @include media-breakpoint-up(lg) {
+        display: block;
+        position: relative;
+        z-index: -1;
+      }
+    }
   }
 
   .header-text {
@@ -46,14 +58,46 @@
     color: #fff;
 
     .title {
-      font-size: 124px;
+      font-size: 2rem;
       font-weight: bold;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 3rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 4rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: 6rem;
+      }
     }
 
     .subtitle {
       font-family: 'Playfair Display', sans-serif;
       font-style: italic;
-      font-size: 48px;
+      font-size: 1.5rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 2rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 2.5rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 3rem;
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: 3.5rem;
+      }
     }
   }
 
@@ -63,7 +107,7 @@
     width: 100%;
     background-color: #fff;
     z-index: 1;
-    border-bottom: 3px solid $gray-300;
+    border-bottom: 4px solid $gray-300;
 
     &.fixed {
       bottom: auto;
@@ -78,11 +122,23 @@
       //width: 800px !important;
 
       @include make-container();
+
+      .btn {
+        padding: 0;
+      }
     }
   }
 
   .header-logo {
-    max-height: 55px;
+    max-height: 35px;
+
+    @include media-breakpoint-up(md) {
+      max-height: 45px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      max-height: 55px;
+    }
   }
 }
 

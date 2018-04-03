@@ -1,0 +1,21 @@
+.home {
+  .punch-lines {
+    .punch-title {
+      font-size: 2rem;
+      text-align: center;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 2.5rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 2.8rem;
+        text-align: start;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 3.2rem;
+      }
+    }
+  }
+}

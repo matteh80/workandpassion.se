@@ -1,5 +1,27 @@
+html {
+  font-size: 0.85rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 0.95rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1rem;
+  }
+}
+
 .section-header {
-  font-size: 78px;
+  font-size: 4rem;
 }
 
 .sub-header {
@@ -8,26 +30,14 @@
   color: $secondary;
 }
 
-.btn-secondary {
-  color: #fff;
-
-  &:hover {
-    color: #fff;
-  }
-
-  &:active {
-    color: #fff !important;
-  }
+.fg-primary {
+  color: $primary;
 }
 
-.btn-outline-secondary {
-  border: 2px solid $secondary !important;
+.fg-white {
+  color: #fff;
+}
 
-  &:hover {
-    color: #fff;
-  }
-
-  &:active {
-    color: #fff !important;
-  }
+.bg-white {
+  background-color: #fff;
 }
