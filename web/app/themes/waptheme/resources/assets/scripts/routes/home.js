@@ -49,7 +49,7 @@ export default {
             },
           },
         })
-          .done(function(response) {
+          .done(function() {
             // console.log(response); // if you're into that sorta thing
             $("#contact_form").trigger("reset");
             $("#mail-alert").addClass("show")
