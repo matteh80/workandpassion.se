@@ -3,6 +3,11 @@ $headings-font-weight: bold;
 
 $primary: #065372;
 $secondary: #fbb526;
+$accent: #e8003b;
+
+$theme-colors: (
+  "accent": $accent
+);
 
 $enable-gradients: true;
 $enable-shadows: true;

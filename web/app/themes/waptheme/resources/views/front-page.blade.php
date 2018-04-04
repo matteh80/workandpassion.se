@@ -4,7 +4,7 @@
     <section class="punch-lines bg-white py-5">
         <div class="container">
             <div class="row mb-5 align-items-center">
-                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-4">
+                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-2">
                     <img src="@asset('images/tummenUpp.png')" class="punch-icon img-fluid" />
                 </div>
                 <div class="col-12 col-md-9 col-lg-10">
@@ -17,8 +17,8 @@
             </div>
 
             <div class="row my-5 align-items-center">
-                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-4">
-                    <img src="@asset('images/planbok.png')" class="punch-icon img-fluid" />
+                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-2">
+                    <img src="@asset('images/planbok_shadow.png')" class="punch-icon img-fluid" />
                 </div>
                 <div class="col-12 col-md-9 col-lg-10">
                     <h2 class="mt-0 display-4 fg-primary punch-title">Att söka jobb är ett jobb i sig.<br /> Och jobb ska man få lön för.</h2>
@@ -29,8 +29,8 @@
             </div>
 
             <div class="row mb-5 align-items-center">
-                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-4">
-                    <img src="@asset('images/gris.png')" class="punch-icon img-fluid" />
+                <div class="col-6 offset-3 col-md-3 offset-md-0 col-lg-2 px-2">
+                    <img src="@asset('images/gris_shadow.png')" class="punch-icon img-fluid" />
                 </div>
                 <div class="col-12 col-md-9 col-lg-10">
                     <h2 class="mt-0 display-4 fg-primary punch-title">Att rekrytera kostar.<br /> Att rekrytera fel är svindyrt.</h2>

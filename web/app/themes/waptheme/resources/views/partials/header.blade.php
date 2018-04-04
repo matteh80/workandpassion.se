@@ -13,7 +13,7 @@
                 <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-secondary w-100 btn-lg btn-heading">Logga in</a>
             </div>
             <div class="col-12 col-md-3 col-lg-2">
-                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-outline-secondary w-100 btn-lg btn-heading">Registrera dig</a>
+                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-outline-light w-100 btn-lg btn-heading">Registrera dig</a>
             </div>
         </div>
     </div>

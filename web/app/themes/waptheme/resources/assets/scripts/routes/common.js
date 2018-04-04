@@ -6,7 +6,7 @@ export default {
     let $window = $(window)
 
     $window.scroll(function() {
-      if ($window.scrollTop() >= $banner.innerHeight() - $navPrimary.height()) {
+      if ($window.scrollTop() >= $banner.innerHeight() - $navPrimary.outerHeight()) {
         $navPrimary.addClass('fixed')
       } else {
         $navPrimary.removeClass('fixed')
