@@ -23,7 +23,6 @@ export default {
       e.preventDefault()
 
       if($("#contact_form").valid()){
-        console.log('valid')
 
         const message = $('#message').val() + '<hr><p>'+ $('#name').val()+ ' (' + $('#email').val() +')</p>';
 
@@ -51,7 +50,7 @@ export default {
           },
         })
           .done(function(response) {
-            console.log(response); // if you're into that sorta thing
+            // console.log(response); // if you're into that sorta thing
             $("#contact_form").trigger("reset");
             $("#mail-alert").addClass("show")
             // if(response[0].status === 'rejected') {
