@@ -1,10 +1,13 @@
 .wap-panel {
   .panel-image {
-    height: 100vh;
+    height: 50vh;
     background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 100ms;
 
     .panel-title {
       text-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -20,10 +23,27 @@
 
       ul {
         padding-left: 0;
-        //list-style: circle;
+        list-style: none;
 
         li {
-          margin-bottom: 1.5rem;
+          margin-bottom: 3rem;
+          position: relative;
+          padding-left: 4rem;
+          min-height: 30px;
+          display: flex;
+          align-items: center;
+
+          .icon {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30px;
+            height: 30px;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
         }
       }
     }

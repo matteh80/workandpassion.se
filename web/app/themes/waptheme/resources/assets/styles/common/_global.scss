@@ -2,6 +2,17 @@ html {
   font-size: 0.85rem;
 }
 
+html,
+body {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @include media-breakpoint-up(sm) {
   html {
     font-size: 0.9rem;
@@ -20,6 +31,15 @@ html {
   }
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+}
+
 .section-header {
   font-size: 4rem;
 }
@@ -28,6 +48,10 @@ html {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: $secondary;
+}
+
+.main {
+  background: #fff;
 }
 
 .fg-primary {

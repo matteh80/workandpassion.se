@@ -103,6 +103,7 @@
     "yargs": "~9.0.1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "~4.7",
     "jquery": "1.12.4 - 3",
