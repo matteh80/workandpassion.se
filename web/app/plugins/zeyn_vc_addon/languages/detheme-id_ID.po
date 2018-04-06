@@ -1,0 +1,1141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Detheme Visual Composer Add On\n"
+"Report-Msgid-Bugs-To: support@detheme.com\n"
+"POT-Creation-Date: 2014-02-27 05:25:07+00:00\n"
+"PO-Revision-Date: 2015-11-03 08:43+0700\n"
+"Last-Translator: Atawai <celomitan@yahoo.com>\n"
+"Language-Team: detheme.com <support@detheme.com>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: lib/map.php:5
+msgid "Icon Box"
+msgstr "Kotak Ikon"
+
+#: lib/map.php:15
+msgid "Icon"
+msgstr "Ikon"
+
+#: lib/map.php:20
+msgid "Select the icon to be displayed by clicking the icon."
+msgstr "Pilih ikon yang akan ditampilkan"
+
+#: lib/map.php:24
+msgid "Layout type"
+msgstr "Tipe Tampilan"
+
+#: lib/map.php:28
+msgid "Type 1: Squared Border Icon"
+msgstr "Tipe 1: Icon dengan bingkai kotak"
+
+#: lib/map.php:29
+#, fuzzy
+msgid "Type 2: Circled Border Icon"
+msgstr "Tipe 2:tanpa ikon"
+
+#: lib/map.php:30
+msgid "Type 3: Squared Border Icon with Counter"
+msgstr ""
+
+#: lib/map.php:31
+msgid "Type 4: Squared Border Box"
+msgstr ""
+
+#: lib/map.php:32
+msgid "Type 5: Circled Border and Transparent Icon"
+msgstr ""
+
+#: lib/map.php:33
+msgid "Type 6: Squared Box With Hover Color"
+msgstr ""
+
+#: lib/map.php:34
+msgid "Type 7: Circled boxes Icon On Left"
+msgstr ""
+
+#: lib/map.php:37
+#, fuzzy
+msgid "Choose the icon layout you want to use."
+msgstr "Pilih model tampilan ikon yang akan digunakan"
+
+#: lib/map.php:41
+msgid "Iconbox heading"
+msgstr "Judul Kotak Ikon"
+
+#: lib/map.php:48
+msgid "Iconbox Heading Color"
+msgstr "Warna Judul"
+
+#: lib/map.php:55
+msgid "Iconbox Counter Number"
+msgstr ""
+
+#: lib/map.php:59
+msgid "A value will count-up."
+msgstr ""
+
+#: lib/map.php:64
+msgid "Iconbox text"
+msgstr "Kotak ikon dengan Tek"
+
+#: lib/map.php:68
+msgid "Text info"
+msgstr ""
+
+#: lib/map.php:72
+msgid "Link"
+msgstr "Tautan"
+
+#: lib/map.php:79
+#, fuzzy
+msgid "Target"
+msgstr "Pilih halaman target link"
+
+#: lib/map.php:82
+#, fuzzy
+msgid "Blank"
+msgstr "Template Kosongan Page Builder"
+
+#: lib/map.php:82
+msgid "Self"
+msgstr ""
+
+#: lib/map.php:83
+msgid "Link Target"
+msgstr "Target Tautan"
+
+#: lib/map.php:87
+msgid "Animation Type"
+msgstr "Jenis Animasi"
+
+#: lib/map.php:92
+msgid "Scroll Spy not activated"
+msgstr ""
+
+#: lib/map.php:93
+msgid "The element fades in"
+msgstr ""
+
+#: lib/map.php:94
+msgid "The element scales up"
+msgstr ""
+
+#: lib/map.php:95
+msgid "The element scales down"
+msgstr ""
+
+#: lib/map.php:96
+msgid "The element slides in from the top"
+msgstr ""
+
+#: lib/map.php:97
+msgid "The element slides in from the bottom"
+msgstr ""
+
+#: lib/map.php:98
+msgid "The element slides in from the left"
+msgstr ""
+
+#: lib/map.php:99
+msgid "The element slides in from the right."
+msgstr ""
+
+#: lib/map.php:101
+msgid "Scroll spy effects"
+msgstr "Efek scroll spy"
+
+#: lib/map.php:105
+msgid "Animation Delay"
+msgstr "Jeda Animasi"
+
+#: lib/map.php:109
+msgid "The number of delay the animation effect of the icon. in milisecond"
+msgstr ""
+
+#: lib/map.php:119
+msgid "Section Heading"
+msgstr "Judul Seksi"
+
+#: lib/map.php:133
+msgid "Type 1: With Icon"
+msgstr ""
+
+#: lib/map.php:134
+msgid "Type 2: No Icon"
+msgstr "Tipe 2:tanpa ikon"
+
+#: lib/map.php:136
+msgid "The icon will show if type 1 selected."
+msgstr ""
+
+#: lib/map.php:150
+msgid "Pre Heading"
+msgstr "Sebelum Judul"
+
+#: lib/map.php:154
+msgid "Leave blank if no pre heading"
+msgstr ""
+
+#: lib/map.php:159
+msgid "Text Heading"
+msgstr "Teks Judul"
+
+#: lib/map.php:167
+msgid "Sub Heading"
+msgstr "Sub Judul"
+
+#: lib/map.php:171
+msgid "Leave it blank to hide sub heading"
+msgstr "Biarkan kosong jika tidak ingin ditampilkan"
+
+#: lib/map.php:175
+msgid "Text Alignment"
+msgstr "Perataan Teks"
+
+#: lib/map.php:178
+msgid "Center"
+msgstr "Tengah"
+
+#: lib/map.php:178
+msgid "Button Align"
+msgstr "Posisi Tombol"
+
+#: lib/map.php:178
+msgid "Label Align"
+msgstr "Kerataan Label"
+
+#: lib/map.php:178
+msgid "Left"
+msgstr "Kiri"
+
+#: lib/map.php:178
+msgid "Right"
+msgstr "Kanan"
+
+#: lib/map.php:183
+msgid "Line type"
+msgstr "Tipe Garis"
+
+#: lib/map.php:187
+msgid "Center line"
+msgstr ""
+
+#: lib/map.php:188
+msgid "Full width"
+msgstr "Tombol melebar"
+
+#: lib/map.php:190
+msgid "Line separator between main heading and sub heading."
+msgstr ""
+
+#: lib/map.php:195
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: lib/map.php:205
+msgid "Pricing Table"
+msgstr "Tabel Harga"
+
+#: lib/map.php:216
+msgid "Module Title"
+msgstr "Judul Module"
+
+#: lib/map.php:223
+msgid "Number of Price Column"
+msgstr "Jumlah Kolom Harga"
+
+#: lib/map.php:226
+msgid "One"
+msgstr "Satu"
+
+#: lib/map.php:227
+msgid "Two"
+msgstr "Dua"
+
+#: lib/map.php:228
+msgid "Three"
+msgstr "Tiga"
+
+#: lib/map.php:229
+msgid "Four"
+msgstr "Empat"
+
+#: lib/map.php:260
+msgid "Price Item"
+msgstr "Item Harga"
+
+#: lib/map.php:271
+msgid "Most popular"
+msgstr "Terpopuler"
+
+#: lib/map.php:273
+msgid "Yes"
+msgstr "Ya"
+
+#: lib/map.php:273
+msgid "No"
+msgstr "Tidak"
+
+#: lib/map.php:278
+msgid "Package Name"
+msgstr "Nama Paket"
+
+#: lib/map.php:284
+msgid "Package Heading"
+msgstr "Judul Paket"
+
+#: lib/map.php:290
+msgid "Currency Symbol"
+msgstr "Simbol Mata Uang"
+
+#: lib/map.php:296
+msgid "Price"
+msgstr "Harga"
+
+#: lib/map.php:305
+msgid ""
+"Type package detail in single line (without breakline/enter). Each breakline "
+"is automatically detected as new detail item"
+msgstr ""
+
+#: lib/map.php:302
+#, fuzzy
+msgid "Package Detail"
+msgstr "Detil Paket"
+
+#: lib/map.php:309
+msgid "\"Button\" Link"
+msgstr ""
+
+#: lib/map.php:315
+msgid "\"Button\" Text"
+msgstr "Teks \"Tombol\""
+
+#: lib/map.php:354
+msgid "Vertical Slider"
+msgstr ""
+
+#: lib/map.php:372
+msgid "Module Height"
+msgstr ""
+
+#: lib/map.php:374
+msgid "Module height in pixel. Leave blank for auto"
+msgstr ""
+
+#: lib/map.php:379
+msgid "Image Position"
+msgstr "Posisi Gambar"
+
+#: lib/map.php:386
+msgid "Slide image position"
+msgstr ""
+
+#: lib/map.php:420
+#, fuzzy
+msgid "Slide Item"
+msgstr "Kecepatan Slide"
+
+#: lib/map.php:439
+msgid "Main Title"
+msgstr "Judul Utama"
+
+#: lib/map.php:445
+msgid "Sub Title"
+msgstr "Sub Judul"
+
+#: lib/map.php:451
+#, fuzzy
+msgid "Slide Image"
+msgstr "Kecepatan Slide"
+
+#: lib/map.php:644
+msgid "Vertical Tab"
+msgstr ""
+
+#: lib/map.php:662
+msgid "Navigation Position"
+msgstr "Posisi Navigasi"
+
+#: lib/map.php:677
+msgid "Tab Item"
+msgstr ""
+
+#: lib/map.php:708
+msgid "Content"
+msgstr "Isi"
+
+#: lib/map.php:850
+msgid "Portfolio Image"
+msgstr ""
+
+#: lib/map.php:860
+msgid "Portfolio Category"
+msgstr "Kategori Portofolio"
+
+#: lib/map.php:866
+msgid "Number of Posts to be displayed"
+msgstr "Jumlah posting yang ditampilkan"
+
+#: lib/map.php:872
+msgid "Slide Speed"
+msgstr "Kecepatan Slide"
+
+#: lib/map.php:876
+msgid "Slide speed (in millisecond). The lower value the faster slides"
+msgstr ""
+"Kecepatan slide ( dalam per seribu detik). Semakin kecil nilainya semakin "
+"cepat slide"
+
+#: lib/map.php:880
+msgid "Autoplay"
+msgstr "Mulai Otomatis"
+
+#: lib/map.php:882
+msgid "Set Autoplay"
+msgstr "Jadikan Mulai Otomatis"
+
+#: lib/map.php:913
+msgid "All Categories"
+msgstr "Semua Kategori"
+
+#: lib/map.php:943
+msgid "Carousel"
+msgstr ""
+
+#: lib/map.php:958
+msgid "DT Carousel"
+msgstr ""
+
+#: lib/map.php:982
+msgid "Slide Interval"
+msgstr "Jeda Slide"
+
+#: lib/map.php:984
+msgid "Slide Interval (in millisecond)"
+msgstr ""
+
+#: lib/map.php:982
+msgid "Pagination"
+msgstr ""
+
+#: lib/map.php:984
+msgid "Pagination Setting"
+msgstr ""
+
+#: lib/map.php:988
+msgid "Show"
+msgstr "Tampil"
+
+#: lib/map.php:988
+msgid "Hidden"
+msgstr "Sembunyikan"
+
+#: lib/map.php:994
+msgid "Pagination Type"
+msgstr ""
+
+#: lib/map.php:1000
+msgid "Standard"
+msgstr ""
+
+#: lib/map.php:1001
+msgid "Custom Image"
+msgstr "Gambar Pilihan"
+
+#: lib/map.php:1002
+msgid "Custom Icon"
+msgstr "Ikon Pilihan"
+
+#: lib/map.php:1008
+msgid "Pagination Image"
+msgstr ""
+
+#: lib/map.php:1016
+msgid "Pagination Icon"
+msgstr ""
+
+#: lib/map.php:1020
+msgid "The icon you want as pagination"
+msgstr "Pilih ikon untuk halaman"
+
+#: lib/map.php:1025
+msgid "Column"
+msgstr "Kolom"
+
+#: lib/map.php:1027
+msgid "Number of columns on screen larger than 1200px screen resolution"
+msgstr ""
+
+#: lib/map.php:1030
+msgid "One Column"
+msgstr "1 kolom"
+
+#: lib/map.php:1031
+msgid "Two Columns"
+msgstr "2 kolom"
+
+#: lib/map.php:1032
+msgid "Three Columns"
+msgstr "3 kolom"
+
+#: lib/map.php:1033
+msgid "Four Columns"
+msgstr "4 kolom"
+
+#: lib/map.php:1038
+msgid "Desktop Column"
+msgstr ""
+
+#: lib/map.php:1040
+msgid "items between 1200px and 1023px"
+msgstr ""
+
+#: lib/map.php:1051
+msgid "Desktop Small Column"
+msgstr ""
+
+#: lib/map.php:1053
+msgid "items between 1024px and 768px"
+msgstr ""
+
+#: lib/map.php:1064
+msgid "Tablet Column"
+msgstr "Layar Tablet"
+
+#: lib/map.php:1066
+msgid "items between 768px and 600px"
+msgstr ""
+
+#: lib/map.php:1077
+msgid "Mobile Column"
+msgstr "Layar Handphone"
+
+#: lib/map.php:1079
+msgid "items below 600px"
+msgstr ""
+
+#: lib/map.php:1272
+msgid "Custom Team Item"
+msgstr ""
+
+#: lib/map.php:1294
+msgid "Description"
+msgstr "Keterangan"
+
+#: lib/map.php:1300
+msgid "Image"
+msgstr "Gambar"
+
+#: lib/map.php:1307
+msgid "Social Link"
+msgstr "Tautan Sosial"
+
+#: lib/map.php:1373
+msgid "Timeline"
+msgstr ""
+
+#: lib/map.php:1397
+msgid "Timeline Item"
+msgstr ""
+
+#: lib/map.php:1397
+msgid "Position"
+msgstr "Posisi"
+
+#: lib/map.php:1418
+msgid "Title"
+msgstr "Judul"
+
+#: lib/map.php:1425
+msgid "Text"
+msgstr "Teks"
+
+#: lib/map.php:1510
+msgid "Progress Bar Item"
+msgstr ""
+
+#: lib/map.php:1536
+msgid "Value"
+msgstr "Nilai"
+
+#: lib/map.php:1542
+msgid "Units"
+msgstr "Satuan"
+
+#: lib/map.php:1548
+msgid "Bar Color"
+msgstr "Warna Batang"
+
+#: lib/map.php:1554
+msgid "Background Color"
+msgstr "Warna Latar"
+
+#: lib/map.php:1568
+msgid "Circle Bar"
+msgstr ""
+
+#: lib/map.php:1598
+msgid "Segment Width"
+msgstr ""
+
+#: lib/map.php:1620
+msgid "Twitter Slider"
+msgstr ""
+
+#: lib/map.php:1630
+msgid "Twitter Account:"
+msgstr "Akun Twitter"
+
+#: lib/map.php:1637
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: lib/map.php:1644
+msgid "Date Format:"
+msgstr "Format Tanggal"
+
+#: lib/map.php:1646
+msgid ""
+"%d : day, %m: month in number, %b: textual month abbreviation, %B: textual "
+"month, %y: 2 digit year, %Y: 4 digit year"
+msgstr ""
+
+#: lib/map.php:1652
+msgid "Template :"
+msgstr "Template Halaman"
+
+#: lib/map.php:1657
+msgid "{{date}}: Post Date, {{tweet}}: tweet text"
+msgstr ""
+
+#: lib/map.php:1660
+msgid "Auto Play:"
+msgstr "Mulai Otomatis"
+
+#: lib/map.php:1672
+msgid "Transition Threshold (msec):"
+msgstr "Lama Pergantian (msec)"
+
+#: lib/map.php:1757
+msgid "Add New Icon"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "No css font available, please check plugin folder <b>%s</b>"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Optin Form"
+msgstr "Formulir Optin"
+
+#: lib/map.php:1767
+msgid "Headline"
+msgstr "Judul"
+
+#: lib/map.php:1767
+msgid "Sub-Headline"
+msgstr "Sub Judul"
+
+#: lib/map.php:1767
+msgid "Optin Code"
+msgstr "Kode Optin"
+
+#: lib/map.php:1767
+msgid "put your optin form code here"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Footer Text"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Enter your optin form footer text."
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Countdown Timer"
+msgstr "Pewaktu Hitung Mundur"
+
+#: lib/map.php:1767
+msgid "Year"
+msgstr "Tahun"
+
+#: lib/map.php:1767
+msgid "choose a year the event. ex: %d"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Month"
+msgstr "Bulan"
+
+#: lib/map.php:1767
+msgid "choose month the event"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "choose day of the month the event. ex: %s"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Time format hour:minute. ex: %s"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "The content before countdown block"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "On Complete Countdown Message"
+msgstr "Pesan jika pewaktu mundur selesai"
+
+#: lib/map.php:1767
+msgid "The content will show after countdown expired. Simple html allowed"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Redirect Url after countdown is completed"
+msgstr "Arahan Tautan setelah pewaktu mundur selesai"
+
+#: lib/map.php:1767
+msgid "Countdown Box Color"
+msgstr "Warna Wadah"
+
+#: lib/map.php:1767
+msgid "Countdown Text Color"
+msgstr "Warna tek"
+
+#: lib/map.php:1767
+msgid "Countdown Label Color"
+msgstr "Warna label"
+
+#: lib/map.php:1767
+msgid "Double Dot Color"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "If countdown expired, the page will be redirected to this url"
+msgstr "Jika pewaktu mundur selesai, halaman akan diteruskan ke tautan ini"
+
+#: lib/map.php:1767
+msgid "Choose Layout"
+msgstr "Pilih Tampilan"
+
+#: lib/map.php:1767
+msgid "Design options"
+msgstr "Opsi Disain"
+
+#: lib/map.php:1767
+msgid "Button Text"
+msgstr "Tek di Tombol"
+
+#: lib/map.php:1767
+msgid "Submit Button"
+msgstr "Tombol Kirim"
+
+#: lib/map.php:1767
+msgid "Button Text Color"
+msgstr "Warna tek tombol"
+
+#: lib/map.php:1767
+msgid "Name Label"
+msgstr "Judul Nama"
+
+#: lib/map.php:1767
+msgid "Email Label"
+msgstr "Judul Email"
+
+#: lib/map.php:1767
+msgid "Button Color"
+msgstr "Warna Tombol"
+
+#: lib/map.php:1767
+msgid "Button Gradient Color"
+msgstr "Warna tombol gradasi"
+
+#: lib/map.php:1767
+msgid "Button Gradient Color To"
+msgstr "Warna tombol gradasi ke"
+
+#: lib/map.php:1767
+msgid "Button Font Size"
+msgstr "Ukuran Huruf Tombol"
+
+#: lib/map.php:1767
+msgid "Element Height"
+msgstr "Tinggi Elemen"
+
+#: lib/map.php:1767
+msgid "Button Width"
+msgstr "Lebar Tombol"
+
+#: lib/map.php:1767
+msgid "Inputbox Padding Vertical"
+msgstr "Jarak Atas/Bawah"
+
+#: lib/map.php:1767
+msgid "Inputbox Padding Horizontal"
+msgstr "Jarak Menyamping Inputan"
+
+#: lib/map.php:1767
+msgid "Button Border Radius"
+msgstr "Kelengkungan Tombol"
+
+#: lib/map.php:1767
+msgid "Inputbox Radius"
+msgstr ""
+
+#: lib/map.php:1767
+msgid "Full Width Button"
+msgstr "Tombol melebar"
+
+#: lib/map.php:1767
+msgid "Button Preview"
+msgstr "Pra-Tayang"
+
+#: lib/shortcode.php:787
+msgid "Your email"
+msgstr "Email Kamu"
+
+#: lib/shortcode.php:787
+msgid "Your name"
+msgstr "Nama Kamu"
+
+#: lib/shortcode.php:787
+msgid "Submit"
+msgstr "Kirim"
+
+#: lib/shortcode.php:787
+msgid "Use this widget to show countdown"
+msgstr ""
+
+#: lib/shortcode.php:787
+#, fuzzy
+msgid "Show partner logo"
+msgstr "Tampilkan"
+
+#: lib/shortcode.php:787
+msgid "Google Map"
+msgstr "Peta Google"
+
+#: lib/shortcode.php:787
+msgid "Show google map"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Latitude"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "put your latitude coordinate your location, ex: -7.2852292"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Longitude"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "put your longitude coordinate your location, ex: 112.6809869"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Zoom Level"
+msgstr "Tingkat Perbesaran"
+
+#: lib/shortcode.php:787
+msgid "zoom level ypur map, higher value present more detail."
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Zoom Control"
+msgstr "Kontrol Perbesaran"
+
+#: lib/shortcode.php:787
+msgid "Show/hide zoom control"
+msgstr "Tampilan/sembunyikan kontrol perbesaran"
+
+#: lib/shortcode.php:787
+msgid "Pan Control"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Show/hide pan control"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Street View Control"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Show/hide street view control"
+msgstr ""
+
+#: lib/shortcode.php:787
+#, fuzzy
+msgid "Mouse Scroll Wheel"
+msgstr "Efek scroll spy"
+
+#: lib/shortcode.php:787
+msgid "Disable/enable mouse scroll to control zoom"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Enable"
+msgstr "Aktifkan"
+
+#: lib/shortcode.php:787
+msgid "Disable"
+msgstr "Matikan"
+
+#: lib/shortcode.php:787
+msgid "Map Height"
+msgstr "Tinggi Peta"
+
+#: lib/shortcode.php:787
+msgid "Map Width"
+msgstr "Lebar Peta"
+
+#: lib/shortcode.php:787
+msgid "Map Marker"
+msgstr "Penanda Peta"
+
+#: lib/shortcode.php:787
+msgid "Default"
+msgstr "Standard"
+
+#: lib/shortcode.php:787
+msgid "Image Marker"
+msgstr "Gambar Penanda"
+
+#: lib/shortcode.php:787
+msgid "Select image as marker your location on the map"
+msgstr "Pilihlah gambar yang digunakan penanda dalam peta"
+
+#: lib/shortcode.php:787
+msgid "Map Style"
+msgstr "Model Peta"
+
+#: lib/shortcode.php:787
+msgid "Shades of Grey"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Midnight Commander"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Blue water"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Light Monochrome"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Neutral Blue"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Avocado World"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Nature"
+msgstr ""
+
+#: lib/shortcode.php:787
+msgid "Pastel Tones"
+msgstr ""
+
+#: custom_function.php:2026
+msgid "Large"
+msgstr "Besar"
+
+#: custom_function.php:2026
+msgid "Small"
+msgstr "Kecil"
+
+#: shortcode.php:273
+msgid "Medium"
+msgstr "Sedang"
+
+#: shortcode.php:273
+msgid "Extra small"
+msgstr "Sangat Kecil"
+
+#: shortcode.php:273
+msgid "Font Size"
+msgstr "Ukuran Huruf"
+
+#: shortcode.php:273
+msgid "Extra Large"
+msgstr "Sangat Besar"
+
+#: shortcode.php:273
+msgid "Font Style"
+msgstr "Model Huruf"
+
+#: shortcode.php:273
+msgid "Font Weight"
+msgstr "Tebal Huruf"
+
+#: shortcode.php:273
+msgid "Custom Font Size"
+msgstr "Ukuran Huruf"
+
+msgid "Custom Size"
+msgstr "Pakai Ukuran Lain"
+
+#: shortcode.php:273
+msgid "Timeline Separator"
+msgstr "Pembatas Timeline"
+
+#: shortcode.php:273
+msgid "Square"
+msgstr "Kotak"
+
+#: shortcode.php:273
+msgid "Circle"
+msgstr "Lingkaran"
+
+#: shortcode.php:273
+#, fuzzy
+msgid "Exit Popup"
+msgstr "Matikan Penyembul Pergi"
+
+#: shortcode.php:273
+msgid "Popup Overlay Background Color"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Popup Background Color"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Height the popup message in pixel"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Popup Height"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Width the popup message in pixel"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Popup Width"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Adding exit popup, 1 element allowed"
+msgstr ""
+
+#: shortcode.php:273
+msgid "Separator"
+msgstr "Pembatas"
+
+#: shortcode.php:273
+msgid "Separator Position"
+msgstr "Posisi Pembatas"
+
+msgid "Separator Color"
+msgstr "Warna Pembatas"
+
+#: countdown
+msgid "Years"
+msgstr "Tahun"
+
+msgid "Months"
+msgstr "Bulan"
+
+msgid "Weeks"
+msgstr "Minggu"
+
+msgid "Days"
+msgstr "Hari"
+
+msgid "Hours"
+msgstr "Jam"
+
+msgid "Minutes"
+msgstr "Menit"
+
+msgid "Seconds"
+msgstr "Detik"
+
+msgid "Week"
+msgstr "Minggu"
+
+msgid "Day"
+msgstr "Hari"
+
+msgid "Hour"
+msgstr "Jam"
+
+msgid "Minute"
+msgstr "Menit"
+
+msgid "Second"
+msgstr "Detik"
+
+msgid "Loading..."
+msgstr "Memuat..."
+
+msgid "Draggable"
+msgstr ""
+
+msgid "Disable/enable dragging on the map"
+msgstr ""
+
+msgid "Desktop Only"
+msgstr ""
+
+#, fuzzy
+msgid "Countdown Type"
+msgstr "Pewaktu Hitung Mundur"
+
+#, fuzzy
+msgid "Fixed Date"
+msgstr "tanggal tetap"
+
+#, fuzzy
+msgid "Evergreen"
+msgstr "tanggal mengambang"
+
+msgid "Relative Time (minutes)"
+msgstr ""
+
+msgid "Relative time from 1st page visit in minutes"
+msgstr ""
+
+msgid "Cookie Lifetime (Hours)"
+msgstr ""
+
+msgid "How long cookie store 1st page visit"
+msgstr ""
+
+#~ msgid "Button Height"
+#~ msgstr "Tinggi Tombol"
+
+#~ msgid "Main Heading"
+#~ msgstr "Judul Utama"
+
+#~ msgid "Main Heading Font Size"
+#~ msgstr "Ukuran Huruf Judul Utama"
+
+#~ msgid "Main Heading Font Style"
+#~ msgstr "Model Huruf Judul Utama"
+
+#~ msgid "Main Heading Font Weight"
+#~ msgstr "Ketebalan Huruf Judul Utama"
