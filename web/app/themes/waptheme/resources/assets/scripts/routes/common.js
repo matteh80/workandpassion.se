@@ -13,8 +13,6 @@ export default {
       }
 
       $('.panel-image').each(function() {
-        // console.log($(this).offset().top)
-        console.log($(window).scrollTop() - $(this).offset().top)
         let test = $(window).scrollTop() - $(this).offset().top
         $(this).css('background-position-y', -test / 100)
       })

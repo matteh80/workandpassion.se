@@ -1,0 +1,149 @@
+1 Jun 2017 – Ver 1.2.6
+- [ADDED] PHP 7.1 Support
+- [UPDATED] WPBakery Visual Composer 5.1.1
+- [UPDATED] Slider Revolution 5.4.1
+- [FIXED] WooCommerce 3.x compatibility issue
+
+28 Oct 2016 – Ver 1.2.5
+- Bug fix : Reduce CPU load on Safari
+
+1 Jul 2016 – Ver 1.2.4
+- Updated : Compatibility with WooCommerce 2.6.0
+
+28 Apr 2016 – Ver 1.2.3
+- Update: Visual Composer 4.11.2.1
+
+11 Apr 2016 – Ver 1.2.2
+- Update: Visual Composer 4.11 
+- WordPress 4.5 compatible
+
+15 Mar 2016 – Ver 1.2.1
+- Updated: WooCommerce 2.5.2 Compatibility 
+
+04 Jan 2016 – Ver 1.2
+- New : One-click demo installer added
+- Updated : Revolution Slider is updated to version 5
+- Updated : Visual composer is updated to 4.8
+- Fixed: Mobile menu issue on 991px screen width
+- Fixed : anchor link between pages does not scroll properly
+
+08 Oct 2015 – Ver 1.1.5
+- Updated : Visual Composer 4.7.4
+- Updated : Visual Composer Add On is updated to 1.0.9
+- New: Youtube/Vimeo video background
+- New : Option to turn of meta-property og
+- New : DT Google Map options to disable dragging in mobile
+- Fixed : Optin form is blocked in mobile
+- Fixed : Function resize() error in custom_functions.php
+- Fixed: display video on portfolio description.
+- Fixed : Conflict in background image under Page attribute and Theme Options
+- Fixed: widget twitter slider (owl carousel )
+- Fixed: DT Icon shrocode panel ( icon picker )
+- Fixed: DT Vertical tab ( icon position )
+- Fixed: DT Portfolio isotope filter under DT portfolio cateogry shows only one item
+- Fixed : Anchor issue in IE
+- Fixed : IE9 does not load few css stylesheets
+- Fixed : IOS9 mobile navigation issue
+
+30 April 2015 – Ver 1.1.4
+- Fixed: Visual Composer portfolio image resizes incorrectly 
+- Fixed : Child Theme stylesheet order 
+- Updated : XSS vulrnerability issue 
+- Changed : Section Heading is now an H2 tag. 
+- Updated : WP 4.2.1 
+- Updated : WooCommerce Theme 2.3.8 
+- Updated : Visual Composer 4.4.4 
+- Updated : Revolution Slider 4.6.9
+
+12 Mar 2015 – Ver 1.1.3
+- New : Language translation can be done in child theme 
+- Updated : Supports WooCommerce 2.3.5 
+- Added : School Revolution slider 
+- Added : Disable scrollspy animation under 991px Related portfolio issue 
+- Fixed : Mega menu Google Map hovering issue 
+- Fixed : Reset section does not work in Theme Options 
+- Fixed: Featured image at related portfolio ( remote image host ) 
+- Fixed: lost theme style ( color, font ) after theme update 
+- Fixed : Cannot set blank favicon
+
+31 Jan 2015 – Ver 1.1.2
+- Fixed : Video Background displays incorrectly in Default page template  
+- Fixed : Shop banner image conflicts with page banner. 
+
+23 Dec 2014 – Ver 1.1.1
+- Updated : Zeyn now supports WP 4.1 
+- Fixed : Background image in page setting does not work when theme option background image is set 
+- Fixed : paragraph is not rendered in Portfolio Project Description 
+- Fixed : Visual Composer Single Image Module is not clickable 
+- Fixed : Disable post comment still displays comment icon and counter. 
+- Improved : webm video format is required for video backgound for broader browser support
+
+28 Nov 2014 – Ver 1.1.0
+- New : Classic Demo Page
+- New : Zeyn now supports video Background.
+- New : Banner darken overlay.
+- New : Custom Portfolio Slug.
+- New : Dedicated page banner image field.
+- Improved : Page Attribute settings are now available in portfolio type post.
+- Improved : Page Attribute Image Uploader.
+- Updated : Visual Composer 4.3.4
+- Updated : DT Countdown Timer Is now translateable.
+- Updated : Woocommerce 2.2.8 Theme Support.
+- Updated : Detheme VC Addon is now compatible with Visual Composer 4.3.4
+- Fixed : Paging for Category & Archive pages.
+- Fixed : Visual Composer Tab unclickable.
+- Fixed : VC Image Carousel crashes.
+- Fixed : Saving Theme Option does not reflect in frontpage.
+- Fixed : Sticky Menu issue on fullwidth page when page has no banner and no slider.
+
+8 Nov 2014 – Ver 1.0.6
+- New : Custom Gallery modal effect
+- New : Zeyn supports WP multi site install.
+- New : Image Background Image Options
+- Improved : Purchase code is not a mandatory for Theme Option
+- Improved : Disable Gallery when jetpack installed
+- Improved : Unload default Google Font when it is not set.
+- Fixed : DT shortcode Icon dissapear
+- Fixed : Facebook sharing error
+- Fixed : Visual Composer Tab clicking issue
+
+17 Oct 2014 – Ver 1.0.5
+- New : Creative demo page
+- New : Design Options tab in Iconbox Visual Composer 
+- Addon Updated : XML landing revslider with triangle particles
+- Fixed : Blank boxed background color when deactivate Page Title 
+- Fixed : Banner being displayed at homepage 
+- Fixed : Visual Composer Call To Action 2 button link does not work 
+- Fixed : Failure installation on wp 3.6 
+
+15 Oct 2014 – Ver 1.0.4
+- Fixed : URL link does not work in Call to Action button module 
+- Fixed : Customstyle loads in WP-login page 
+- Fixed : Vertical Menu Layout irresponsive 
+- Fixed : Mega menu imports its setting incorrectly.
+- Improved : More consistent navigation style 
+- Improved : Visual Composer query loads first 
+- Improved : Text Widget now renders shortcode 
+- Improved : Twitter Widget won't load on some websites
+
+8 Oct 2014 – Ver 1.0.3
+- Fixed : Inconsistent navigation style 
+- Fixed : Mobile navigation with long content is not scrollable 
+- Added : global background color & text color parameter 
+- Added : Mobile Logo position parameter
+
+4 Oct 2014 – Ver 1.0.2
+- Updated : DT Megamenu plugin version 1.0.2 
+- Updated : detheme_vc_addon version 1.0.2 
+- Updated : Documentation Demo Content 
+- Added : Shop Slider 
+- Added : vc_template
+- New : Child Theme 
+
+1 Oct 2014 – Ver 1.0.1
+- Updated : Slider Revolution 4.6 with Demo File, XML demo page 
+- Fixed : Preloader on clicking 'Load More' button in portfolio page
+- Improved : Scroll to anchor animation isolated to row element
+
+30 Sept 2014 – Ver 1.0.0
+- Initial Release

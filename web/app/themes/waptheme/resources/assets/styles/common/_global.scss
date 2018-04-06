@@ -52,6 +52,13 @@ h6 {
 
 .main {
   background: #fff;
+  padding: 178px 0 100px;
+}
+
+.home {
+  .main {
+    padding: 0;
+  }
 }
 
 .fg-primary {
