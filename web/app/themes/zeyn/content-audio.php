@@ -47,7 +47,7 @@
 				<div class="row">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-						<div class="col-xs-12">
+						<div class="col-12 col-xs-12">
 
 						<?php   if ($hasaudioshortcode) { ?>											
 							<div class="postimage">
@@ -147,7 +147,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 <?php    if ($hasaudioshortcode) { ?>											
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postimage">
 						<div class="postdate primary_color_bg">
 							<div class="day"><?php print get_the_date('d');?></div>
@@ -173,7 +173,7 @@
 		} //if ($hasvideoshortcode or $hasyoutubelink)
 ?>											
 
-				<div class="col-xs-12 <?php echo $colsm;?>">
+				<div class="col-12 col-xs-12 <?php echo $colsm;?>">
 					<div class="postcontent">
 					<?php if (!$hasaudioshortcode) : ?>
 						<div class="postdate primary_color_bg">

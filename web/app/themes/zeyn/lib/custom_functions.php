@@ -657,15 +657,15 @@ function dt_comment_form( $args = array(), $post_id = null ) {
   
   $fields   =  array(
     'author' => '<div class="row">
-                    <div class="form-group col-xs-12 col-sm-4">
+                    <div class="form-group col-12 col-xs-12 col-sm-4">
                       <i class="icon-user-7"></i>
                       <input type="text" class="form-control" name="author" id="author" placeholder="'.esc_attr(__('full name','detheme')).'" required>
                   </div>',
-    'email' => '<div class="form-group col-xs-12 col-sm-4">
+    'email' => '<div class="form-group col-12 col-xs-12 col-sm-4">
                       <i class="icon-mail-7"></i>
                       <input type="email" class="form-control"  name="email" id="email" placeholder="'.esc_attr(__('email address','detheme')).'" required>
                   </div>',
-    'url' => '<div class="form-group col-xs-12 col-sm-4">
+    'url' => '<div class="form-group col-12 col-xs-12 col-sm-4">
                   <i class="icon-globe-6"></i>
                   <input type="text" class="form-control icon-user-7" name="url" id="url" placeholder="'.esc_attr(__('website','detheme')).'">
                 </div>
@@ -676,7 +676,7 @@ function dt_comment_form( $args = array(), $post_id = null ) {
   $defaults = array(
     'fields'               => apply_filters( 'comment_form_default_fields', $fields ),
     'comment_field'        => '<div class="row">
-                                  <div class="form-group col-xs-12">
+                                  <div class="form-group col-12 col-xs-12">
                                     <textarea class="form-control" rows="3" name="comment" id="comment" placeholder="'.esc_attr(__('your message','detheme')).'" required></textarea>
 
                                   </div>
@@ -866,9 +866,9 @@ function dt_comment( $comment, $args, $depth ) {
                   <?php dt_edit_comment_link( __( 'Edit', 'detheme' ), '', '' ); ?>
                 </div>
                 <div class="media-body">
-                  <div class="col-xs-12 col-sm-5 dt-comment-author"><?php comment_author(); ?></div>
-                  <div class="col-xs-12 col-sm-7 dt-comment-date secondary_color_text text-right"><?php comment_date('g:i A - j F, Y') ?></div>
-                  <div class="col-xs-12 dt-comment-comment"><?php comment_text(); ?></div>
+                  <div class="col-12 col-xs-12 col-sm-5 dt-comment-author"><?php comment_author(); ?></div>
+                  <div class="col-12 col-xs-12 col-sm-7 dt-comment-date secondary_color_text text-right"><?php comment_date('g:i A - j F, Y') ?></div>
+                  <div class="col-12 col-xs-12 dt-comment-comment"><?php comment_text(); ?></div>
                 </div>
               </li>
 

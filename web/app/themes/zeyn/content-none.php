@@ -12,7 +12,7 @@
 ?>
 
 <div class="row">
-	<div class="col-xs-12">
+	<div class="col-12 col-xs-12">
 		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
 		<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'detheme' ), admin_url( 'post-new.php' ) ); ?></p>

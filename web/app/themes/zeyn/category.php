@@ -91,10 +91,10 @@ $class_sidebar = $sidebar_position;
 			<?php get_template_part( 'content', 'none' ); ?>
 			<?php endif; ?>	
 
-				<div class="clearfix"><div class="col-xs-12 postseparator"></div></div>
+				<div class="clearfix"><div class="col-12 col-xs-12 postseparator"></div></div>
 				<!-- Pagination -->
 				<div class="row">
-					<div class="paging-nav col-xs-12">
+					<div class="paging-nav col-12 col-xs-12">
 <?php
 						global $wp_query;
 

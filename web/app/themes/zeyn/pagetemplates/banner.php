@@ -35,7 +35,7 @@ $vertical_menu_container_class = ($detheme_config['dt-header-type']=='leftbar')?
 <section id="banner-section" class="<?php echo sanitize_html_class($vertical_menu_container_class); echo($darkenbanner)?" dark-banner":"";?>">
 <div class="container<?php print (empty($subtitle))?" no_subtitle":"";?>">
 	<div class="row">
-		<div class="col-xs-12">
+		<div class="col-12 col-xs-12">
 
 <?php if (!is_single() || is_singular()) { ?>
 <?php 	if($showTitle) {?>

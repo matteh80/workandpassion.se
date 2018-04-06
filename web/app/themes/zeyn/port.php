@@ -198,7 +198,7 @@ endif;
 						</div>
 
 						<div class="row">
-							<div class="col-xs-12">
+							<div class="col-12 col-xs-12">
 <?php 
 if(comments_open()):?>
 							<div class="comment-count">
@@ -229,7 +229,7 @@ if(comments_open()):?>
 	if ($related->have_posts()) :?>
 <div id="related-port" class="portfolio">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<h2 class="port-heading"><?php _e('Related Project','detheme');?></h2>
 					<div class="portfolio-container"  data-col="4" data-type="image">
 					<?php while ( $related->have_posts() ) : 

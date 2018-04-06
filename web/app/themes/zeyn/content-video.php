@@ -64,7 +64,7 @@
 
 				<div class="row">
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<div class="col-xs-12">
+						<div class="col-12 col-xs-12">
 
 <?php	if ($imageurl!="") { ?>											
 							<div class="postimagecontent">
@@ -169,7 +169,7 @@
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 			<?php  if ($hasvideoshortcode or $hasyoutubelink) { ?>											
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postimage">
 						<div class="postdate primary_color_bg">
 							<div class="day"><?php print get_the_date('d');?></div>
@@ -201,7 +201,7 @@
 					$colsm = 'col-md-push-0';
 					} elseif ($imageurl!="") { //if ($hasvideoshortcode or $hasyoutubelink)
 ?>
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postimagecontent">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><img class="img-responsive" alt="<?php print esc_attr($alt_image);?>" src="<?php echo esc_url($imageurl); ?>"></a>
 
@@ -227,7 +227,7 @@
 						$colsm = 'col-sm-10 col-sm-push-2 col-md-5 col-md-push-0 col-lg-6 margin_top_40_max_sm';
 					} //if ($hasvideoshortcode or $hasyoutubelink) ?>						
 
-				<div class="col-xs-12 <?php echo $colsm;?>">
+				<div class="col-12 col-xs-12 <?php echo $colsm;?>">
 					<div class="postcontent">
 
 					<?php if (!($hasvideoshortcode or $hasyoutubelink)) : ?>

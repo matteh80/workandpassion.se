@@ -64,9 +64,9 @@ $vertical_menu_container_class = ($detheme_config['dt-header-type']=='leftbar')?
 	<div class="container">
 		<div class="row">
 <?php if ($sidebar_position=='nosidebar') { ?>
-			<div class="col-xs-12">
+			<div class="col-12 col-xs-12">
 <?php	} else { ?>
-			<div class="col-xs-12 col-sm-8 <?php print ($sidebar_position=='sidebar-left')?" col-sm-push-4":"";?> col-md-9 <?php print ($sidebar_position=='sidebar-left')?" col-md-push-3":"";?>">
+			<div class="col-12 col-xs-12 col-sm-8 <?php print ($sidebar_position=='sidebar-left')?" col-sm-push-4":"";?> col-md-9 <?php print ($sidebar_position=='sidebar-left')?" col-md-push-3":"";?>">
 <?php	} ?>
 <?php 
 while ( have_posts() ) : 
@@ -74,7 +74,7 @@ the_post();
 ?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<div class="row">
-						<div class="col-xs-12 col-sm-12">
+						<div class="col-12 col-xs-12 col-sm-12">
 							<div class="postcontent">
 <?php 
 	the_content();
@@ -99,12 +99,12 @@ the_post();
 </div>
 
 <?php if ('sidebar-right'==$sidebar_position) { ?>
-			<div class="col-xs-12 col-sm-4 col-md-3 sidebar">
+			<div class="col-12 col-xs-12 col-sm-4 col-md-3 sidebar">
 				<?php get_sidebar(); ?>
 			</div>
 <?php }
 	elseif ($sidebar_position=='sidebar-left') { ?>
-			<div class="col-xs-12 col-sm-4 col-md-3 sidebar col-sm-pull-8 col-md-pull-9">
+			<div class="col-12 col-xs-12 col-sm-4 col-md-3 sidebar col-sm-pull-8 col-md-pull-9">
 				<?php get_sidebar(); ?>
 			</div>
 <?php }?>

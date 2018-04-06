@@ -48,7 +48,7 @@ class DT_Tabs extends WP_Widget {
 					<div class="rowlist">
 					<?php
 						$imgurl = $alt_image = "";
-						$col_post_info = 'col-xs-12';
+						$col_post_info = 'col-12 col-xs-12';
 						$col_image_info = ''; 
 						$thumb_id=get_post_thumbnail_id(get_the_ID());
 						$featured_image = wp_get_attachment_image_src($thumb_id,'thumbnail',false); 
@@ -112,7 +112,7 @@ class DT_Tabs extends WP_Widget {
 				<div class="row">
 				<div class="rowlist gray_border_bottom">
 					<?php
-						$col_post_info = 'col-xs-12'; 
+						$col_post_info = 'col-12 col-xs-12';
 						$imgurl = $alt_image = "";
 
 						$thumb_id=get_post_thumbnail_id(get_the_ID());
@@ -1099,7 +1099,7 @@ class DT_Twitter_Slider extends WP_Widget {
 		
 		echo '
        	<div class="row">
-            <div class="col col-xs-12">
+            <div class="col col-12 col-xs-12">
                 <div id="'.$widget_id.'" class="sequence-twitter"></div>  
             </div>
         </div>';

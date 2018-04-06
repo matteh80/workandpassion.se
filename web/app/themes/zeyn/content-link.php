@@ -20,7 +20,7 @@
 ?>		
 <div class="row">
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<div class="col-xs-12">
+		<div class="col-12 col-xs-12">
 			<div class="postcontent postcontent-link primary_color_bg" <?php echo $bgstyle; ?>>
 				<h4 class="blog-post-title"><a href="<?php echo esc_url(get_the_content()); ?>" target="_blank"><?php the_title();?></a></h4>
 				<?php the_content(); ?>

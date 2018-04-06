@@ -16,7 +16,7 @@
 	global $more;
 ?>											
 
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postcontent">
 						<?php 
 							$more = 1;

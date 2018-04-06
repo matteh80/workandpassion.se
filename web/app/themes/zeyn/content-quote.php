@@ -21,7 +21,7 @@
 
 		<div class="row">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postcontent postcontent-quote primary_color_bg" <?php echo $bgstyle; ?>>
 						<?php the_content(); ?>
 						<div class="iconquote"><i class="icon-quote-right-1"></i></div>

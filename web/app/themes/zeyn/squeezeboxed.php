@@ -45,7 +45,7 @@ set_query_var('sidebar','nosidebar');
 <div <?php post_class('content'); ?>>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-12 col-xs-12">
 
 <?php 
 while ( have_posts() ) : 

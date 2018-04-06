@@ -95,7 +95,7 @@ $vertical_menu_container_class = ($detheme_config['dt-header-type']=='leftbar')?
 					<?php endif; //if ($i==1)?>
 
 					<?php get_template_part( 'content', get_post_format() ); ?>
-					<div class="clearfix"><div class="col-xs-12 postseparator"></div>
+					<div class="clearfix"><div class="col-12 col-xs-12 postseparator"></div>
 				</div>
 			<?php endwhile; ?>
 
@@ -105,10 +105,10 @@ $vertical_menu_container_class = ($detheme_config['dt-header-type']=='leftbar')?
 			<?php get_template_part( 'content', 'none' ); ?>
 			<?php endif; ?>	
 
-				<div class="clearfix"><div class="col-xs-12 postseparator"></div></div>
+				<div class="clearfix"><div class="col-12 col-xs-12 postseparator"></div></div>
 				<!-- Pagination -->
 				<div class="row">
-					<div class="paging-nav col-xs-12">
+					<div class="paging-nav col-12 col-xs-12">
 <?php
 						global $wp_query;
 

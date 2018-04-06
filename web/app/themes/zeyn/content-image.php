@@ -54,7 +54,7 @@
 <?php
 	if ($imageurl!="") {
 ?>											
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postimagecontent">
 						<a href="<?php the_permalink(); ?>" title="<?php the_title();?>"><img class="img-responsive" alt="<?php print esc_attr($alt_image);?>" src="<?php echo esc_url($imageurl); ?>"></a>
 
@@ -80,7 +80,7 @@
 ?>
 
 <?php if (is_single()) : ?>
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 					<div class="postmetabottom">
 						<div class="row">
 							<div class="col-xs-1"></div>
@@ -94,7 +94,7 @@
 											
 
 <?php if (is_single()) : ?>
-				<div class="col-xs-12">
+				<div class="col-12 col-xs-12">
 
 					<div class="comment-count">
 						<h3><?php comments_number(__('No Comments','detheme'),__('1 Comment','detheme'),__('% Comments','detheme')); ?></h3>

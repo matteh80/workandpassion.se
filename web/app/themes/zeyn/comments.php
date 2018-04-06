@@ -9,7 +9,7 @@
 
 		<!-- Pagination -->
 		<div class="row">
-			<div class="paging-nav col-xs-12">
+			<div class="paging-nav col-12 col-xs-12">
 <?php
 				echo paginate_comments_links(array(
 					'prev_text'    => __('<i class="icon-angle-left"></i>'),
