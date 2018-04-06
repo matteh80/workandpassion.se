@@ -46,6 +46,7 @@ the_post();
 						<div class="post-article">
 <?php 
 	the_content();
+echo 'asdasdasd'
  ?>
 						</div>
 <?php endwhile; ?>
