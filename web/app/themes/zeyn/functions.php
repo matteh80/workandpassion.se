@@ -343,8 +343,8 @@ function dtheme_print_inline_style(){
 	print "<style type=\"text/css\">\n";
 
 	print "@import url(". get_template_directory_uri() . "/style.css);\n";
-	print "@import url(". get_template_directory_uri() . '/css/bootstrap.css);'."\n";
-//	print "@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);"."\n";
+//	print "@import url(". get_template_directory_uri() . '/css/bootstrap.css);'."\n";
+	print "@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);"."\n";
 
 	if(!wp_style_is('fontello-font'))
 	print "@import url(". get_template_directory_uri() . '/css/fontello.css);'."\n";

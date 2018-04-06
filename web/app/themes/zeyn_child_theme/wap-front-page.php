@@ -48,11 +48,11 @@ the_post();
         <h1 class="title text-center">Hitta båda här.</h1>
         <h3 class="subtitle text-center">Matchning värd varje krona och sekund.</h3>
         <div class="row buttons mt-5 w-100">
-            <div class="col-12 col-md-3 offset-md-3 col-lg-2 offset-lg-4 mb-2 mb-md-0">
-                <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-secondary w-100 btn-lg btn-heading">Logga in</a>
+            <div class="col-12 col-md-3 offset-md-3 col-lg-2 offset-lg-4 mb-2 mb-md-0 text-center">
+                <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-secondary btn-login w-100 btn-lg btn-heading">Logga in</a>
             </div>
-            <div class="col-12 col-md-3 col-lg-2">
-                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-outline-light w-100 btn-lg btn-heading">Registrera dig</a>
+            <div class="col-12 col-md-3 col-lg-2 text-center">
+                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-register btn-outline-light w-100 btn-lg btn-heading">Registrera dig</a>
             </div>
         </div>
     </div>
