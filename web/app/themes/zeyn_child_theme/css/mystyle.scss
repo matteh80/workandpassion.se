@@ -1,6 +1,7 @@
 /* your style here */
 @import url("https://use.typekit.net/ytn6jcj.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i');
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "futura-pt",sans-serif;
@@ -30,7 +31,10 @@ $secondary: #fbb017;
     background-size: 100%;
     background-position: center;
     overflow: hidden;
-    margin-top: -30px;
+    margin-top: -50px;
+    @media (min-width: 992px) {
+        margin-top: -30px;
+    }
 
     #bgvid {
         position: absolute;
@@ -151,3 +155,20 @@ footer#footer {
     color: #000000;
     font-family: 'Open Sans', sans-serif;
 }
+
+#head-page.transparent.reveal #logomenurevealmobile {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 50px;
+    width: auto;
+}
+
+#dt-menu {
+    .menu-item {
+        @media (min-width: 992px) {
+            float: right;
+        }
+    }
+}
+

@@ -406,7 +406,7 @@ function add_search_box_to_menu( $items, $args ) {
       $logoContent=(!empty($detheme_config['dt-logo-text']))?'<div class="header-logo><a class="navbar-brand-desktop" href="'.home_url().'">'.$detheme_config['dt-logo-text'].'</a></div>':"";
     }
 
-    $items = '<li class="logo-desktop hidden-sm hidden-xs">'.$logoContent.'</li>' . $items;
+    $items = '<li class="logo-desktop hidden-sm hidden-xs d-none d-lg-block">'.$logoContent.'</li>' . $items;
 
     if($detheme_config['show-header-searchmenu']):
       if( $args->theme_location == 'primary' ) :
