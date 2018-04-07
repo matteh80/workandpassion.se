@@ -146,15 +146,17 @@ footer#footer {
     padding-bottom: 20px;
 }
 
+.home #head-page #dt-menu > ul > li > a {
+    color: #222222;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #head-page.alt #dt-menu > ul > li > a {
     color: #ffffff !important;
     font-family: 'Open Sans', sans-serif;
 }
 
-.home #head-page #dt-menu > ul > li > a {
-    color: #222222 !important;
-    font-family: 'Open Sans', sans-serif;
-}
+
 
 #head-page.transparent.reveal #logomenurevealmobile {
     //display: block;
