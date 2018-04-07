@@ -22,43 +22,41 @@ $footertext=function_exists('icl_t') ? icl_t('detheme', 'footer-text', $detheme_
 ?>
 <footer id="footer" class="tertier_color_bg <?php print $detheme_config['dt-header-type']=='leftbar'?" vertical_menu_container":"";?>">
 <section class="container footer-section">
-    <div class="row">
-	    <?php if((!empty($footertext) || strlen(strip_tags($footertext)) > 1) && $detheme_config['showfooterwidget']){?>
-            <div class="col-md-9 col-md-push-3 col-sm-12 col-12 col-xs-12 footer-right">
-                <div id="footer-right row">
-				    <?php dynamic_sidebar('detheme-bottom');
-				    do_action('dynamic_sidebar_detheme-bottom');
-				    ?>
-                </div>
-            </div>
-            <div class="col-md-3 col-md-pull-9 col-sm-12 col-12 col-xs-12 footer-left">
-                <div id="footer-left">
-				    <?php echo do_shortcode($footertext); ?>
-                </div>
-            </div>
-	    <?php }
-        elseif((!empty($footertext) || strlen(strip_tags($footertext)) > 1) && !$detheme_config['showfooterwidget'])
-	    {
-		    ?>
-            <div class="col-md-12 footer-left">
-                <div id="footer-left row">
-				    <?php echo do_shortcode($footertext); ?>
-                </div>
-            </div>
-	    <?php }
-        elseif($detheme_config['showfooterwidget']){
-		    ?>
-            <div class="col-md-12 footer-right equal-height">
-                <div id="footer-right">
-				    <?php dynamic_sidebar('detheme-bottom');
-				    do_action('dynamic_sidebar_detheme-bottom');
-				    ?>
-                </div>
-            </div>
-		    <?php
-	    }
-	    ?>
-    </div>
+		<?php if((!empty($footertext) || strlen(strip_tags($footertext)) > 1) && $detheme_config['showfooterwidget']){?> 
+		<div class="col-md-9 col-md-push-3 col-sm-12 col-12 col-xs-12 footer-right equal-height">
+			<div id="footer-right" class="row">
+				<?php dynamic_sidebar('detheme-bottom');
+				do_action('dynamic_sidebar_detheme-bottom');
+				 ?>
+			</div>
+		</div>			
+		<div class="col-md-3 col-md-pull-9 col-sm-12 col-12 col-xs-12 footer-left equal-height">
+			<div id="footer-left">
+				<?php echo do_shortcode($footertext); ?>
+			</div>
+		</div>
+		<?php }
+		elseif((!empty($footertext) || strlen(strip_tags($footertext)) > 1) && !$detheme_config['showfooterwidget'])
+		{
+		?> 
+		<div class="col-md-12 footer-left equal-height">
+			<div id="footer-left">
+				<?php echo do_shortcode($footertext); ?>
+			</div>
+		</div>	
+		<?php }
+		elseif($detheme_config['showfooterwidget']){
+			?>
+		<div class="col-md-12 footer-right equal-height">
+			<div id="footer-right">
+				<?php dynamic_sidebar('detheme-bottom');
+				do_action('dynamic_sidebar_detheme-bottom');
+				 ?>
+			</div>
+		</div>	
+		<?php
+		 }
+		?>
 </section>
 </footer>
 <?php
