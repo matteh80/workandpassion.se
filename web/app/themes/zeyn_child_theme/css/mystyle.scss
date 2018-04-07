@@ -147,21 +147,21 @@ footer#footer {
 }
 
 #head-page.alt #dt-menu > ul > li > a {
-    color: #ffffff;
+    color: #ffffff !important;
     font-family: 'Open Sans', sans-serif;
 }
 
-#head-page #dt-menu > ul > li > a {
-    color: #000000;
+.home #head-page.reveal #dt-menu > ul > li > a {
+    color: #222222 !important;
     font-family: 'Open Sans', sans-serif;
 }
 
 #head-page.transparent.reveal #logomenurevealmobile {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-height: 50px;
-    width: auto;
+    //display: block;
+    //padding-top: 10px;
+    //padding-bottom: 10px;
+    //max-height: 50px;
+    //width: auto;
 }
 
 #dt-menu {
