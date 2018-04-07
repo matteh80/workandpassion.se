@@ -63,10 +63,9 @@ the_post();
 						<h3 class="post-sub-title"><?php print $subtitle;?></h3>
 		<?php endif;?>				
 <?php endif;?>
-						<div class="post-article">
+						<div class="post-article container-fluid">
 <?php
 	the_content();
-
  ?>
 						</div>
 <?php endwhile; ?>

@@ -107,9 +107,9 @@ jQuery(document).ready(function($){
 
             var $item=$('#footer-right .border-left:first');
             var $col=$item.hasClass('col-2')?2:$item.hasClass('col-3')?3:$item.hasClass('col-4')?4:1;
-            var rowHeight=$item.outerHeight(true);
+            // var rowHeight=$item.outerHeight(true);
 
-            $('.border-left').matchHeight();
+            // $('.border-left').matchHeight();
         }
 
     };
