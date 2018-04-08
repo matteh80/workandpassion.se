@@ -143,7 +143,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "detheme-portfolio", "js_composer", "zeyn_vc_addon"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "detheme-portfolio", "js_composer", "zeyn_vc_addon", "dt-megamenu", "zeyn-demo", "revslider", "wpackagist-plugin/contact-form-7"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
