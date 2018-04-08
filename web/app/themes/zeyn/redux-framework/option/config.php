@@ -1100,8 +1100,8 @@ if (!function_exists('redux_init')) :
 				'type' => 'color_nocheck',
 				'output' => array('.site-title'),
 				'title' => __('Primary Color', 'redux-framework'), 
-				'subtitle' => sprintf(__('Pick a primary color for the theme (default: %s)', 'redux-framework'),'#f16338'),
-				'default' => '#f16338',
+				'subtitle' => sprintf(__('Pick a primary color for the theme (default: %s)', 'redux-framework'),'#fbb017'),
+				'default' => '#fbb017',
 				'validate' => 'color',
 				),		
 
@@ -1110,8 +1110,8 @@ if (!function_exists('redux_init')) :
 				'type' => 'color_nocheck',
 				'output' => array('.site-title'),
 				'title' => __('Secondary Color', 'redux-framework'), 
-				'subtitle' => sprintf(__('Pick a secondary color for the theme (default: %s)', 'redux-framework'),'#f16338'),
-				'default' => '#f16338',
+				'subtitle' => sprintf(__('Pick a secondary color for the theme (default: %s)', 'redux-framework'),'#fbb017'),
+				'default' => '#fbb017',
 				'validate' => 'color',
 				),		
 			array(
@@ -2479,8 +2479,8 @@ function detheme_style_compile($detheme_config=array(),$css=""){
 	}
 
 
-	$cssline=(isset($detheme_config['primary-color']) && '#f16338'!=$detheme_config['primary-color'])?get_redux_custom_primary_color($detheme_config['primary-color']):"";
-	$cssline.=(isset($detheme_config['secondary-color']) && '#f16338'!=$detheme_config['secondary-color'])?get_redux_custom_secondary_color($detheme_config['secondary-color']):"";
+	$cssline=(isset($detheme_config['primary-color']) && '#fbb017'!=$detheme_config['primary-color'])?get_redux_custom_primary_color($detheme_config['primary-color']):"";
+	$cssline.=(isset($detheme_config['secondary-color']) && '#fbb017'!=$detheme_config['secondary-color'])?get_redux_custom_secondary_color($detheme_config['secondary-color']):"";
 	$cssline.=(isset($detheme_config['primary-font']) && 'Istok Web'!=$detheme_config['primary-font']['font-family'] && ''!=$detheme_config['primary-font']['font-family'])?get_redux_custom_primary_font($detheme_config['primary-font']['font-family']):"";
 	$cssline.=(isset($detheme_config['secondary-font']) && 'Dosis'!=$detheme_config['secondary-font']['font-family'] && ''!=$detheme_config['secondary-font']['font-family'])?get_redux_custom_secondary_font($detheme_config['secondary-font']):"";
 	$cssline.=(isset($detheme_config['section-font']) && 'Dosis'!=$detheme_config['section-font']['font-family'] && ''!=$detheme_config['section-font']['font-family'])?get_redux_custom_section_font($detheme_config['section-font']):"";
