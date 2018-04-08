@@ -24,12 +24,103 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http":false
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "detheme-portfolio",
+        "type": "wordpress-muplugin",
+        "version": "1.0.4",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/detheme-portfolio_1.0.4.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "js_composer",
+        "type": "wordpress-muplugin",
+        "version": "5.1.1",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/js_composer_5.1.1.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "zeyn_vc_addon",
+        "type": "wordpress-muplugin",
+        "version": "1.0.11",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/zeyn_vc_addon_1.0.11.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "dt-megamenu",
+        "type": "wordpress-muplugin",
+        "version": "1.0",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/dt-megamenu.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "zeyn-demo",
+        "type": "wordpress-muplugin",
+        "version": "1.0.1",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/zeyn-demo_1.0.1.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "revslider",
+        "type": "wordpress-muplugin",
+        "version": "5.4.1",
+        "dist": {
+          "type": "zip",
+          "url": "http://detheme.com/repo/mnemonic/plugins/revslider-v5.4.1.zip"
+        },
+        "require": {
+          "composer/installers": "^1.4"
+        }
+      }
     }
   ],
   "require": {
@@ -38,14 +129,21 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "^4.9.2",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "detheme-portfolio": "1.0.4",
+    "js_composer": "5.1.1",
+    "zeyn_vc_addon": "1.0.11",
+    "dt-megamenu": "1.0",
+    "zeyn-demo": "1.0.1",
+    "revslider": "5.4.1",
+    "wpackagist-plugin/contact-form-7": "5.0.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "detheme-portfolio", "js_composer", "zeyn_vc_addon"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },

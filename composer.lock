@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3709fcb0bef4d1e710357fd06ecca2ac",
+    "content-hash": "53d69c7af0925dc9fbb1daf80be14d13",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,34 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "detheme-portfolio",
+            "version": "1.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/detheme-portfolio_1.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
+        },
+        {
+            "name": "dt-megamenu",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/dt-megamenu.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -255,6 +283,20 @@
             "time": "2018-01-29T14:49:29+00:00"
         },
         {
+            "name": "js_composer",
+            "version": "5.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/js_composer_5.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
+        },
+        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -295,6 +337,20 @@
                 "env"
             ],
             "time": "2017-07-17T20:41:59+00:00"
+        },
+        {
+            "name": "revslider",
+            "version": "5.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/revslider-v5.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -402,6 +458,54 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "zeyn-demo",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/zeyn-demo_1.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
+        },
+        {
+            "name": "zeyn_vc_addon",
+            "version": "1.0.11",
+            "dist": {
+                "type": "zip",
+                "url": "http://detheme.com/repo/mnemonic/plugins/zeyn_vc_addon_1.0.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
         }
     ],
     "packages-dev": [
