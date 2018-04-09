@@ -324,4 +324,15 @@ textarea {
     }
 }
 
+.widget_pages {
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        &.children {
+            padding-left: 1rem;
+        }
+    }
+}
+
 
