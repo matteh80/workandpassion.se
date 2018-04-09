@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "544bcf2d6ebfdff48494802f5a5925fd",
+    "content-hash": "42078313532f8eaa4f06ed1b281d87de",
     "packages": [
         {
             "name": "composer/installers",
@@ -478,6 +478,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/wpmandrill",
+            "version": "1.33",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpmandrill/",
+                "reference": "tags/1.33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpmandrill.1.33.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpmandrill/"
         },
         {
             "name": "zeyn-demo",
