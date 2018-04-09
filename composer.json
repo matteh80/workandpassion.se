@@ -136,6 +136,7 @@
     "dt-megamenu": "1.0",
     "zeyn-demo": "1.0.1",
     "revslider": "5.4.1",
+    "wpackagist-plugin/contact-form-7": "5.0.1",
     "wpackagist-plugin/wpmandrill": "1.33"
   },
   "require-dev": {
