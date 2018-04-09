@@ -20,6 +20,7 @@ wp_head();
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100067149-3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

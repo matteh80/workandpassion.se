@@ -136,14 +136,15 @@
     "dt-megamenu": "1.0",
     "zeyn-demo": "1.0.1",
     "revslider": "5.4.1",
-    "wpackagist-plugin/contact-form-7": "5.0.1"
+    "wpackagist-plugin/contact-form-7": "5.0.1",
+    "wpackagist-plugin/wpmandrill": "1.33"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "detheme-portfolio", "js_composer", "zeyn_vc_addon", "dt-megamenu", "zeyn-demo", "revslider", "wpackagist-plugin/contact-form-7"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "detheme-portfolio", "js_composer", "zeyn_vc_addon", "dt-megamenu", "zeyn-demo", "revslider", "wpackagist-plugin/contact-form-7", "wpackagist-plugin/wpmandrill"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },

@@ -1,4 +1,12 @@
 var $ = jQuery.noConflict();
+
+jQuery(document).ready(function($){
+  $('#contact_form').click(function() {
+    alert('hej')
+  })
+})
+
+
 (function( window, $, undefined ){
 
   'use strict';
