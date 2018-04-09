@@ -192,6 +192,17 @@ footer#footer {
     //width: auto;
 }
 
+#head-page {
+    .icon-menu {
+        color: $primary;
+    }
+    &.alt {
+        .icon-menu {
+            color: #fff;
+        }
+    }
+}
+
 #dt-menu {
     ul {
         //text-align: right;
@@ -216,12 +227,14 @@ footer#footer {
 }
 
 label {
-    width: 100%;
-    color: #fff;
-    font-family: 'futura-pt', sans-serif;
-    margin-bottom: 0;
+    //width: 100%;
+    //color: #fff;
+    //font-family: 'futura-pt', sans-serif;
+    //margin-bottom: 0;
     //color: $primary;
 }
+
+
 
 input[type="text"],
 input[type="email"],
