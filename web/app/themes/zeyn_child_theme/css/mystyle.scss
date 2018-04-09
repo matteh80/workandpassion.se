@@ -336,6 +336,18 @@ textarea {
 .wpcf7-response-output {
     border-radius: 5px;
 }
+.wpcf7 {
+    input[type="submit"] {
+        background-color: $secondary !important;
+        color: #fff !important;
+        font-family: "Playfair Display" !important;
+        border: none !important;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
 
 .dt-social {
     &.size-small {
