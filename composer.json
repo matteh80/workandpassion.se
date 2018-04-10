@@ -37,7 +37,7 @@
       "package": {
         "name": "wap/js_composer",
         "version": "5.4.7",
-        "type": "wordpress-muplugin",
+        "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
           "url": "https://s3.amazonaws.com/wap-wp-plugins/js_composer.zip"
@@ -64,7 +64,7 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin", "wap/js_composer"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },

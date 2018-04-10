@@ -72,7 +72,7 @@
 <?php if(is_page_template('views/template-company.blade.php')): ?>
 <header class="banner company-banner">
     <div class="header-text d-flex flex-column justify-content-center align-items-center">
-        <h1 class="title text-center">Att rekrytera är dyrt.</h1>
+        <h1 class="title text-center">Att rekrytera kostar.</h1>
         <h1 class="title text-center">Att rekrytera fel är svindyrt.</h1>
     </div>
     <nav class="nav-primary navbar navbar-expand-lg">
