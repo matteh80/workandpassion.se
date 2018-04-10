@@ -43,7 +43,9 @@
     @include('partials.panel-candidate-how-it-works')
 
     @while(have_posts()) @php(the_post())
-    @include('partials.content-page')
+        @if ( !empty( get_the_content() ) )
+            @include('partials.content-page')
+        @endif
     @endwhile
 
     @include('partials.panel-candidate-contact')
