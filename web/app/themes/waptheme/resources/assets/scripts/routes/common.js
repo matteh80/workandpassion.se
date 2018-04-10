@@ -2,11 +2,17 @@ export default {
   init() {
     // JavaScript to be fired on all pages
     let $navPrimary = $('.nav-primary')
-    let $banner = $('.banner')
+    // let $banner = $('.banner')
     let $window = $(window)
 
     $window.scroll(function() {
-      if ($window.scrollTop() >= $banner.innerHeight() - $navPrimary.outerHeight()) {
+      // if ($window.scrollTop() >= $banner.innerHeight() - $navPrimary.outerHeight()) {
+      //   $navPrimary.addClass('fixed')
+      // } else {
+      //   $navPrimary.removeClass('fixed')
+      // }
+
+      if ($window.scrollTop() >= $navPrimary.outerHeight()) {
         $navPrimary.addClass('fixed')
       } else {
         $navPrimary.removeClass('fixed')
@@ -14,7 +20,7 @@ export default {
 
       $('.panel-image').each(function() {
         let test = $(window).scrollTop() - $(this).offset().top
-        $(this).css('background-position-y', -test / 100)
+        $(this).css('background-position-y', -test / 50)
       })
     })
 

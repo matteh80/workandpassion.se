@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d365d98ae6eb8ad7611e3d29cd09136",
+    "content-hash": "adb99defc4d224572ad44176c64f145b",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,34 +125,6 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
-        },
-        {
-            "name": "detheme-portfolio",
-            "version": "1.0.4",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/detheme-portfolio_1.0.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
-        },
-        {
-            "name": "dt-megamenu",
-            "version": "1.0",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/dt-megamenu.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -283,20 +255,6 @@
             "time": "2018-01-29T14:49:29+00:00"
         },
         {
-            "name": "js_composer",
-            "version": "5.1.1",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/js_composer_5.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
-        },
-        {
             "name": "oscarotero/env",
             "version": "v1.1.0",
             "source": {
@@ -337,20 +295,6 @@
                 "env"
             ],
             "time": "2017-07-17T20:41:59+00:00"
-        },
-        {
-            "name": "revslider",
-            "version": "5.4.1",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/revslider-v5.4.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -460,16 +404,16 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.0.1",
+            "name": "wpackagist-plugin/html5-responsive-faq",
+            "version": "2.5.4",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.0.1"
+                "url": "https://plugins.svn.wordpress.org/html5-responsive-faq/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/html5-responsive-faq.zip?timestamp=1511605554",
                 "reference": null,
                 "shasum": null
             },
@@ -477,19 +421,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+            "homepage": "https://wordpress.org/plugins/html5-responsive-faq/"
         },
         {
-            "name": "wpackagist-plugin/wpmandrill",
-            "version": "1.33",
+            "name": "wpackagist-plugin/social-icons-widget-by-wpzoom",
+            "version": "3.0.7",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wpmandrill/",
-                "reference": "tags/1.33"
+                "url": "https://plugins.svn.wordpress.org/social-icons-widget-by-wpzoom/",
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpmandrill.1.33.zip",
+                "url": "https://downloads.wordpress.org/plugin/social-icons-widget-by-wpzoom.zip?timestamp=1517397990",
                 "reference": null,
                 "shasum": null
             },
@@ -497,35 +441,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wpmandrill/"
-        },
-        {
-            "name": "zeyn-demo",
-            "version": "1.0.1",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/zeyn-demo_1.0.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
-        },
-        {
-            "name": "zeyn_vc_addon",
-            "version": "1.0.11",
-            "dist": {
-                "type": "zip",
-                "url": "http://detheme.com/repo/mnemonic/plugins/zeyn_vc_addon_1.0.11.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-muplugin"
+            "homepage": "https://wordpress.org/plugins/social-icons-widget-by-wpzoom/"
         }
     ],
     "packages-dev": [

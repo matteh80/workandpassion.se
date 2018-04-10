@@ -1,16 +1,23 @@
-.content-info {
-  background: $primary;
-  color: #fff;
+footer {
+  &.content-info {
+    background: $dark-gray;
+    color: #fff;
 
-  section.widget {
-    margin: 0 15px;
+    section.widget {
+      margin: 0 15px;
 
-    &:first-of-type {
-      margin-left: 0;
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
+  }
 
-    &:last-of-type {
-      margin-right: 0;
-    }
+  .copyright-section {
+    background: $darkest-gray;
+    color: #cbcbcb !important;
   }
 }

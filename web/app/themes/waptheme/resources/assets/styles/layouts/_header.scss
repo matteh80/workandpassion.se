@@ -22,6 +22,12 @@
 }
 
 .banner {
+  position: relative;
+  height: 280px;
+  background: $primary;
+  //background-size: cover;
+  background-attachment: fixed;
+
   &.videobanner {
     position: relative;
     min-height: 100vh;
@@ -30,6 +36,10 @@
     background-size: 100%;
     background-position: center;
     overflow: hidden;
+
+    .header-text {
+      padding-bottom: 75px;
+    }
   }
 
   #bgvid {
@@ -54,9 +64,11 @@
   }
 
   .header-text {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    padding-bottom: 75px;
     color: #fff;
 
     .title {
@@ -81,7 +93,7 @@
     }
 
     .subtitle {
-      font-family: 'Playfair Display', sans-serif;
+      font-family: "futura-pt", sans-serif;
       font-style: italic;
       font-size: 1.5rem;
 
@@ -90,36 +102,27 @@
       }
 
       @include media-breakpoint-up(md) {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
       }
 
       @include media-breakpoint-up(lg) {
-        font-size: 3rem;
+        font-size: 2.8rem;
       }
 
       @include media-breakpoint-up(xl) {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
       }
     }
   }
 
   .nav-primary {
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
-    background-color: #fff;
+    background-color: transparent;
     z-index: 1;
-    border-bottom: 4px solid $gray-300;
+    border-bottom: 4px solid transparent;
     font-family: $headings-font-family;
-
-    &.fixed {
-      bottom: auto;
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      width: 100%;
-    }
+    color: #fff;
 
     .header-container {
       //width: 800px !important;
@@ -128,6 +131,16 @@
 
       .btn {
         padding: 0;
+      }
+
+      .brand {
+        &.on-white {
+          display: none;
+        }
+
+        &.on-transparent {
+          display: block;
+        }
       }
     }
 
@@ -140,11 +153,78 @@
 
       .menu-item {
         margin: 0 1rem;
+
+        a {
+          color: #fff;
+          position: relative;
+          font-family: $subheadings-font-family;
+          font-size: 1rem;
+
+          &::after,
+          &::before {
+            content: '';
+            width: 0;
+            background: $secondary;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            transition: all 250ms;
+          }
+
+          &::before {
+            left: 50%;
+            transform-origin: right;
+          }
+
+          &::after {
+            right: 50%;
+          }
+
+          &:hover {
+            &::after,
+            &::before {
+              width: 50%;
+            }
+          }
+        }
       }
 
       .current-menu-item {
-        background: $gray-200;
-        box-shadow: inset 0 -5px 0 $primary;
+        a {
+          &::before,
+          &::after {
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    &.fixed {
+      bottom: auto;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+      animation-name: navbarReveal;
+      animation-duration: 500ms;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-out;
+
+      .menu-item a {
+        color: $primary;
+      }
+
+      .brand {
+        &.on-white {
+          display: block;
+        }
+
+        &.on-transparent {
+          display: none !important;
+        }
       }
     }
   }
@@ -160,5 +240,10 @@
       max-height: 55px;
     }
   }
+}
+
+@keyframes navbarReveal {
+  0% { top: -200px; }
+  100% { top: 0; }
 }
 

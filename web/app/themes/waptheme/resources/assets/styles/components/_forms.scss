@@ -17,3 +17,7 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+label {
+  font-family: $subheadings-font-family;
+}

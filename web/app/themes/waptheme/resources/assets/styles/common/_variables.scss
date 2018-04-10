@@ -1,13 +1,17 @@
-$headings-font-family: "futura-pt",sans-serif;
+$headings-font-family: 'Playfair Display', sans-serif;
 $headings-font-weight: bold;
 
+$subheadings-font-family: "futura-pt",sans-serif;
 $primary: #065372;
 $secondary: #fbb526;
 $accent: #e8003b;
+$dark-gray: #030e13;
+$darkest-gray: #010507;
 
 $theme-colors: (
-  "accent": $accent
+  "accent": $accent,
+  "dark-gray": $dark-gray
 );
 
 $enable-gradients: true;
-$enable-shadows: true;
+//$enable-shadows: true;

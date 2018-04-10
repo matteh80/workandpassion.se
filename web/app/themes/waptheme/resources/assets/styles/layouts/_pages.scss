@@ -1,5 +1,9 @@
+$punch-triangle-size: 40px;
+
 .home {
   .punch-lines {
+    position: relative;
+
     .punch-title {
       font-size: 2rem;
       text-align: center;
@@ -17,5 +21,29 @@
         font-size: 3.2rem;
       }
     }
+
+    //&::after {
+    //  content: '';
+    //  position: absolute;
+    //  left: calc(50% - #{$punch-triangle-size});
+    //  bottom: -$punch-triangle-size;
+    //  width: 0;
+    //  height: 0;
+    //  border-style: solid;
+    //  border-width: $punch-triangle-size $punch-triangle-size 0 $punch-triangle-size;
+    //  border-color: #fff transparent transparent;
+    //}
+  }
+
+  .sounds-fair {
+    min-height: 50vh;
+
+    @include media-breakpoint-up(lg) {
+      min-height: 100vh;
+    }
+
+    background-image: url("../images/rattvist.jpg");
+    background-size: cover;
+    color: $dark-gray;
   }
 }

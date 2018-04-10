@@ -1,5 +1,6 @@
-html {
-  font-size: 0.85rem;
+html,
+body {
+  font-size: 14px;
 }
 
 html,
@@ -71,4 +72,12 @@ h6 {
 
 .bg-white {
   background-color: #fff;
+}
+
+.font-headings {
+  font-family: $headings-font-family !important;
+}
+
+.font-subheadings {
+  font-family: $subheadings-font-family !important;
 }

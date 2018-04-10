@@ -6,6 +6,7 @@ export default {
   },
   finalize() {
     // JavaScript to be fired on the home page, after the init JS
+
     $("#contact_form").validate({
       messages: {
         name: "Skriv in ditt namn",
