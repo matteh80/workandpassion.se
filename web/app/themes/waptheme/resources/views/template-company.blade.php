@@ -5,12 +5,12 @@
 @extends('layouts.app')
 
 @section('content')
-    @include('partials.panel-candidate-how-it-works')
-
     @while(have_posts()) @php(the_post())
     @include('partials.content-page')
     @endwhile
 
+    @include('partials.panel-candidate-how-it-works')
+    
     @include('partials.panel-candidate-contact')
 
     <section class="sounds-fair d-flex flex-column align-items-center justify-content-center">
