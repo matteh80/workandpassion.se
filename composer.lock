@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "adb99defc4d224572ad44176c64f145b",
+    "content-hash": "de64cd371b1f9d2bcde4a4b3318cdbfc",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,6 +402,20 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wap/js_composer",
+            "version": "5.4.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://s3.amazonaws.com/wap-wp-plugins/js_composer.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-muplugin"
         },
         {
             "name": "wpackagist-plugin/html5-responsive-faq",
