@@ -39,11 +39,31 @@ $punch-triangle-size: 40px;
     min-height: 50vh;
 
     @include media-breakpoint-up(lg) {
-      min-height: 100vh;
+      min-height: 50vh;
     }
 
-    background-image: url("../images/rattvist.jpg");
+    h2 {
+      text-align: center;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 120px !important;
+        text-align: start;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 160px !important;
+      }
+
+      @include media-breakpoint-up(xl) {
+        font-size: 200px !important;
+      }
+    }
+
+    background-image: url("../images/trees.jpg");
     background-size: cover;
+    background-attachment: fixed;
     color: $dark-gray;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }

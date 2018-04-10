@@ -13,6 +13,8 @@ $panel-triangle-size: 60px;
     align-items: center;
     justify-content: center;
     transition: all 100ms;
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
 
     .overlay {
       position: absolute;
@@ -22,6 +24,8 @@ $panel-triangle-size: 60px;
       right: 0;
       bottom: 0;
       background-color: rgba(0, 0, 0, 0.1);
+      //background: linear-gradient(to bottom, $accent 0%, $primary 100%);
+      //opacity: 0.2;
     }
 
     .panel-title {
@@ -87,6 +91,10 @@ $panel-triangle-size: 60px;
           font-size: 1.6rem;
           //border-radius: 50%;
           //background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 100%);
+
+          a {
+            color: #fff !important;
+          }
         }
 
         .contact-icon {

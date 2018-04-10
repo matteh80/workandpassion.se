@@ -1,4 +1,4 @@
-@extends('layouts.panel', ['panelimage' => @\App\asset_path("images/tjej_dator.jpg"), 'paneltitle' => 'Kontakt', 'panelclass' => 'candidate-contact'])
+@extends('layouts.panel', ['panelimage' => @\App\asset_path("images/trees.jpg"), 'paneltitle' => 'Kontakt', 'panelclass' => 'candidate-contact'])
 
 @section('panel-content')
     <div class="container py-5">
@@ -15,21 +15,21 @@
                         <div class="contact-icon facebook-icon">
                             <i class="fab fa-facebook-f"></i>
                         </div>
-                        /workandpassion
+                        <a href="https://facebook.com/workandpassion">/workandpassion</a>
                     </div>
 
                     <div class="social-item d-flex align-items-center">
                         <div class="contact-icon instagram-icon">
                             <i class="fab fa-instagram"></i>
                         </div>
-                        /wap
+                        <a href="https://www.instagram.com/workandpassion/">/workandpassion</a>
                     </div>
 
                     <div class="social-item d-flex align-items-center">
                         <div class="contact-icon linkedin-icon">
                             <i class="fab fa-linkedin"></i>
                         </div>
-                        /in/work-and-passion
+                        <a href="https://www.linkedin.com/company/27107460/">/company/27107460</a>
                     </div>
                 </div>
             </div>
