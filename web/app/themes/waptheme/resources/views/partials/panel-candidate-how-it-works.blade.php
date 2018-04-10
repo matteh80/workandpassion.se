@@ -35,7 +35,7 @@
                 <div class="text-center">
                     <img src="@asset('images/ikoner_sa_funkar_det_speech_bubble.png')" class="img-fluid how-it-works-icon" />
                 </div>
-                <h4>Kontakt</h4>
+                <h4>Intervju</h4>
                 <span>
                     Om företaget (och du som kandidat) vill gå vidare och träffas för en intervju, då får du 1800 kr till.
                 </span>
@@ -44,7 +44,7 @@
                 <div class="text-center">
                     <img src="@asset('images/ikoner_sa_funkar_det_heart.png')" class="img-fluid how-it-works-icon" />
                 </div>
-                <h4>Kontakt</h4>
+                <h4>Anställning</h4>
                 <span>
                     Skulle det vara så att matchningen var perfekt och du skriver på ett anställningsavtal, då får du 5000 kr till!
                 </span>
@@ -53,7 +53,7 @@
                 <div class="text-center">
                     <img src="@asset('images/ikoner_sa_funkar_det_hand_star.png')" class="img-fluid how-it-works-icon" />
                 </div>
-                <h4>Kontakt</h4>
+                <h4>Arbetsgivare</h4>
                 <span>
                     Om flera företag skulle vara intresserad av dig så blir det ännu mer klirr i kassan.
                     Varje företag som vill se ditt CV och varje intervju du går på ger dig en summa.

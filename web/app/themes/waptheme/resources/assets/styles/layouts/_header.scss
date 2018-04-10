@@ -1,3 +1,9 @@
+.top-bar {
+  background-color: $primary;
+  padding: 0.5rem;
+  color: #fff;
+}
+
 .banner .nav li {
   @extend .nav-item;
 
@@ -27,6 +33,12 @@
   background: $primary;
   //background-size: cover;
   background-attachment: fixed;
+
+  &.company-banner {
+    min-height: 75vh;
+    background-image: url("../images/tjej_train.jpg");
+    background-size: cover;
+  }
 
   &.videobanner {
     position: relative;
