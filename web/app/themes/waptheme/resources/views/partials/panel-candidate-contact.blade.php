@@ -11,25 +11,31 @@
                         {{--</div>--}}
                         {{--info@workandpassion.se--}}
                     {{--</div>--}}
-                    <div class="social-item d-flex align-items-center">
-                        <div class="contact-icon facebook-icon">
-                            <i class="fab fa-facebook-f"></i>
-                        </div>
-                        <a href="https://facebook.com/workandpassion">/workandpassion</a>
+                    <div class="social-item">
+                        <a href="https://facebook.com/workandpassion" class="d-flex align-items-center">
+                            <div class="contact-icon facebook-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </div>
+                            <span class="social-text d-none d-md-block">/workandpassion</span>
+                        </a>
                     </div>
 
-                    <div class="social-item d-flex align-items-center">
-                        <div class="contact-icon instagram-icon">
-                            <i class="fab fa-instagram"></i>
-                        </div>
-                        <a href="https://www.instagram.com/workandpassion/">/workandpassion</a>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/workandpassion/" class="d-flex align-items-center">
+                            <div class="contact-icon instagram-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <span class="social-text d-none d-md-block">/workandpassion</span>
+                        </a>
                     </div>
 
-                    <div class="social-item d-flex align-items-center">
-                        <div class="contact-icon linkedin-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <a href="https://www.linkedin.com/company/27107460/">/company/27107460</a>
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/company/27107460/" class="d-flex align-items-center">
+                            <div class="contact-icon linkedin-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <span class="social-text d-none d-md-block">/company/27107460</span>
+                        </a>
                     </div>
                 </div>
             </div>

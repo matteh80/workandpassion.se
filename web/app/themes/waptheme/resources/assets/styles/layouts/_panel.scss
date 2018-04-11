@@ -86,7 +86,12 @@ $panel-triangle-size: 60px;
         .social-item {
           padding: 5px;
           //color: $gray-500;
-          margin-right: 2rem;
+          margin-right: 0;
+
+          @include media-breakpoint-up(md) {
+            margin-right: 2rem;
+          }
+
           font-family: $subheadings-font-family;
           font-size: 1.6rem;
           //border-radius: 50%;

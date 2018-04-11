@@ -1,7 +1,7 @@
 $headings-font-family: 'Playfair Display', sans-serif;
 $headings-font-weight: bold;
 
-$subheadings-font-family: "futura-pt",sans-serif;
+$subheadings-font-family: "futura-pt", sans-serif;
 $primary: #065372;
 $secondary: #fbb526;
 $accent: #e8003b;
@@ -17,3 +17,14 @@ $theme-colors: (
 
 $enable-gradients: true;
 //$enable-shadows: true;
+
+$hamburger-padding-x: 15px;
+$hamburger-padding-y: 15px;
+$hamburger-layer-width: 30px;
+$hamburger-layer-height: 4px;
+$hamburger-layer-spacing: 6px;
+$hamburger-layer-color: $accent;
+$hamburger-layer-border-radius: 4px;
+$hamburger-hover-opacity: 0.7;
+$hamburger-hover-transition-duration: 0.15s;
+$hamburger-hover-transition-timing-function: linear;

@@ -20,7 +20,7 @@
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3">
-                    <img src="@asset('images/planbok_shadow.png')" class="punch-icon img-fluid mx-auto d-block"/>
+                    {{--<img src="@asset('images/planbok_shadow.png')" class="punch-icon img-fluid mx-auto d-block"/>--}}
                     <h2 class="mt-0 fg-primary">Att söka jobb är ett jobb i sig. <br /> Och jobb ska man få betalt för.</h2>
                     <span>
                         Genom oss matchas du med seriösa arbetsgivare och tjänar pengar på kuppen.
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="col-12 col-lg-6 mt-3">
-                    <img src="@asset('images/gris_shadow.png')" class="punch-icon img-fluid mx-auto d-block"/>
+                    {{--<img src="@asset('images/gris_shadow.png')" class="punch-icon img-fluid mx-auto d-block"/>--}}
                     <h2 class="mt-0 fg-primary">Att rekrytera kostar. <br/> Att rekrytera fel är svindyrt.</h2>
                     <span>
                         Det är inte lätt att hitta rätt. Särskilt när den som skulle passa perfekt inte aktivt letar nytt

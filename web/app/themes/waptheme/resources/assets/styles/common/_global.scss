@@ -41,6 +41,22 @@ h6 {
   font-weight: 700 !important;
 }
 
+.display-3 {
+  font-size: 3rem;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 3.5rem;
+  }
+
+  @include media-breakpoint-up(md) {
+    font-size: 4rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 4.5rem;
+  }
+}
+
 .section-header {
   font-size: 4rem;
 }
@@ -49,6 +65,10 @@ h6 {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: $secondary;
+}
+
+.wrap {
+  overflow: hidden;
 }
 
 .main {

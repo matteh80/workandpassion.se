@@ -4,6 +4,22 @@ $punch-triangle-size: 40px;
   .punch-lines {
     position: relative;
 
+    .display-1 {
+      font-size: 2.5rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 4rem;
+      }
+
+      @include media-breakpoint-up(md) {
+        font-size: 5rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 6rem;
+      }
+    }
+
     .punch-title {
       font-size: 2rem;
       text-align: center;

@@ -27,8 +27,10 @@
             <a class="brand text-hide float-left on-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}
                 <img src="@asset('images/wap-header-logo.png')" class="header-logo py-1" />
             </a>
-            <button class="navbar-toggler float-right mt-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler float-right mt-1 hamburger hamburger--squeeze collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
             </button>
 
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
@@ -55,8 +57,10 @@
             <a class="brand text-hide float-left on-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}
                 <img src="@asset('images/wap-header-logo.png')" class="header-logo py-1" />
             </a>
-            <button class="navbar-toggler float-right mt-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler float-right mt-1 hamburger hamburger--squeeze collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
             </button>
 
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
@@ -83,8 +87,10 @@
             <a class="brand text-hide float-left on-white" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}
                 <img src="@asset('images/wap-header-logo.png')" class="header-logo py-1" />
             </a>
-            <button class="navbar-toggler float-right mt-1" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler float-right mt-1 hamburger hamburger--squeeze collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
             </button>
 
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">

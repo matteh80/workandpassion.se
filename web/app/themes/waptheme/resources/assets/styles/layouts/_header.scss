@@ -31,8 +31,12 @@
   position: relative;
   height: 280px;
   background: $primary;
+  background-position: center;
   //background-size: cover;
-  background-attachment: fixed;
+
+  @include media-breakpoint-up(lg) {
+    background-attachment: fixed;
+  }
 
   &.company-banner {
     min-height: 75vh;
@@ -133,11 +137,20 @@
   .nav-primary {
     position: relative;
     width: 100%;
-    background-color: transparent;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
     z-index: 1;
-    border-bottom: 4px solid transparent;
+    //border-bottom: 4px solid transparent;
     font-family: $headings-font-family;
     color: #fff;
+
+    .hamburger-inner {
+      background-color: #fff;
+
+      &::after,
+      &::before {
+        background-color: #fff;
+      }
+    }
 
     .header-container {
       //width: 800px !important;
@@ -160,7 +173,7 @@
     }
 
     .navbar-collapse {
-      margin-top: 60px;
+      //margin-top: 60px;
 
       @include media-breakpoint-up(lg) {
         margin-top: 0;
@@ -221,12 +234,21 @@
       right: 0;
       top: 0;
       width: 100%;
-      background-color: #fff;
+      background: #fff;
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
       animation-name: navbarReveal;
       animation-duration: 500ms;
       animation-iteration-count: 1;
       animation-timing-function: ease-out;
+
+      .hamburger-inner {
+        background-color: $primary;
+
+        &::after,
+        &::before {
+          background-color: $primary;
+        }
+      }
 
       .menu-item a {
         color: $primary;
