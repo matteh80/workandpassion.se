@@ -4,9 +4,6 @@
       "./scripts/main.js",
       "./styles/main.scss"
     ],
-    "modernizr": [
-      "./scripts/modernizr.js"
-    ],
     "customizer": [
       "./scripts/customizer.js"
     ]

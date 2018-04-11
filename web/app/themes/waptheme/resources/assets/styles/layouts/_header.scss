@@ -142,6 +142,7 @@
     //border-bottom: 4px solid transparent;
     font-family: $headings-font-family;
     color: #fff;
+    transition: all 250ms;
 
     .hamburger-inner {
       background-color: #fff;
@@ -275,6 +276,33 @@
 
     @include media-breakpoint-up(lg) {
       max-height: 55px;
+    }
+  }
+}
+
+.navbar.menu-visible {
+  background: #fff;
+
+  .hamburger-inner {
+    background-color: $primary;
+
+    &::after,
+    &::before {
+      background-color: $primary;
+    }
+  }
+
+  .menu-item a {
+    color: $primary !important;
+  }
+
+  .brand {
+    &.on-white {
+      display: block !important;
+    }
+
+    &.on-transparent {
+      display: none !important;
     }
   }
 }

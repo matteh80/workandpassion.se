@@ -6,12 +6,6 @@ export default {
     let $window = $(window)
 
     $window.scroll(function() {
-      // if ($window.scrollTop() >= $banner.innerHeight() - $navPrimary.outerHeight()) {
-      //   $navPrimary.addClass('fixed')
-      // } else {
-      //   $navPrimary.removeClass('fixed')
-      // }
-
       if ($window.scrollTop() >= $navPrimary.outerHeight()) {
         $navPrimary.addClass('fixed')
       } else {
@@ -22,6 +16,14 @@ export default {
         let test = $(window).scrollTop() - $(this).offset().top
         $(this).css('background-position-y', -test / 50)
       })
+    })
+
+    $('.navbar-toggler').click(function() {
+      if ($(this).hasClass('collapsed')) {
+        $navPrimary.addClass('menu-visible')
+      } else {
+        $navPrimary.removeClass('menu-visible')
+      }
     })
   },
   finalize() {
