@@ -13,8 +13,10 @@ export default {
       }
 
       $('.panel-image').each(function() {
-        let test = $(window).scrollTop() - $(this).offset().top
-        $(this).css('background-position-y', -test / 50)
+        if ($(this).css('background-attachment') === 'fixed') {
+          let test = $(window).scrollTop() - $(this).offset().top
+          $(this).css('background-position-y', -test / 50)
+        }
       })
     })
 

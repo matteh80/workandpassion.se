@@ -6,9 +6,13 @@ $panel-triangle-size: 60px;
   .panel-image {
     position: relative;
     height: 30vh;
-    background-attachment: fixed;
     background-size: cover;
-    background-position-x: 70%;
+
+    @include media-breakpoint-up(lg) {
+      background-attachment: fixed;
+      background-position-x: 70%;
+    }
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,13 +46,27 @@ $panel-triangle-size: 60px;
     &::after {
       content: '';
       position: absolute;
-      left: calc(50% - #{$panel-triangle-size});
-      top: -$panel-triangle-size;
+      left: calc(50% - #{$panel-triangle-size / 2});
+      top: -$panel-triangle-size / 2;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 0 $panel-triangle-size $panel-triangle-size $panel-triangle-size;
+      border-width: 0 ($panel-triangle-size / 2) ($panel-triangle-size / 2) ($panel-triangle-size / 2);
       border-color: transparent;
+    }
+
+    @include media-breakpoint-up(lg) {
+      &::after {
+        content: '';
+        position: absolute;
+        left: calc(50% - #{$panel-triangle-size});
+        top: -$panel-triangle-size;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 $panel-triangle-size $panel-triangle-size $panel-triangle-size;
+        border-color: transparent;
+      }
     }
   }
 
