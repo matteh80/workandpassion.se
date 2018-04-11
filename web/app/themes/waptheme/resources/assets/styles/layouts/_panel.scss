@@ -76,10 +76,10 @@ $panel-triangle-size: 60px;
     color: #fff;
 
     .panel-content {
-      background: linear-gradient(to bottom, $accent 0%, darken($accent, 15%) 100%);
+      background: linear-gradient(to bottom, #73828d 0%, darken(#73828d, 25%) 100%);
 
       &::after {
-        border-color: transparent transparent $accent;
+        border-color: transparent transparent #73828d;
       }
 
       .social-icons-wrapper {

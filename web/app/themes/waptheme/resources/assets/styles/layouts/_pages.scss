@@ -59,11 +59,17 @@ $punch-triangle-size: 40px;
       }
     }
 
-    background-image: url("../images/trees.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    color: $dark-gray;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    //background-image: url("../images/trees.jpg");
+    //background-size: cover;
+    //background-attachment: fixed;
+    color: #fff;
+    background: url("../images/trees.jpg");
   }
 }
+
+//.backgroundcliptext {
+//  .sounds-fair {
+//    -webkit-background-clip: text;
+//    -webkit-text-fill-color: transparent;
+//  }
+//}

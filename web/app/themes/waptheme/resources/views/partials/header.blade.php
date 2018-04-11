@@ -1,7 +1,7 @@
 <?php if(is_front_page()): ?>
 <header class="banner videobanner">
         <div id="bgvid" style="background-image: url('@asset('images/man_startsidebild_mobil.jpg')')">
-            <video playsinline autoplay muted loop poster="@asset('images/man_startsidebild_mobil.jpg')">
+            <video playsinline autoplay muted loop poster="@asset('images/man_startsidebild_mobil.jpg')" width="1920" height="1080">
                 <source src="@asset('videos/startfilm.mp4')" type="video/mp4">
             </video>
         </div>
@@ -11,7 +11,7 @@
             <h3 class="subtitle text-center">Matchning värd varje krona och sekund.</h3>
             <div class="row buttons mt-5 w-100">
                 <div class="col-12 col-md-3 offset-md-3 col-lg-2 offset-lg-4 mb-2 mb-md-0">
-                    <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-secondary w-100 btn-lg btn-heading">Logga in</a>
+                    <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-primary w-100 btn-lg btn-heading">Logga in</a>
                 </div>
                 <div class="col-12 col-md-3 col-lg-2">
                     <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-outline-light w-100 btn-lg btn-heading">Registrera dig</a>

@@ -1,3 +1,4 @@
+/* global Modernizr */
 export default {
   init() {
     // JavaScript to be fired on all pages
@@ -24,6 +25,11 @@ export default {
       })
     })
 
+    if (Modernizr.testAllProps('backgroundClip')) {
+      console.log('background-clip');
+    }else{
+      console.log('not backgroundclip');
+    }
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

@@ -5,12 +5,14 @@ $subheadings-font-family: "futura-pt",sans-serif;
 $primary: #065372;
 $secondary: #fbb526;
 $accent: #e8003b;
+$turqouise: #11ada7;
 $dark-gray: #030e13;
 $darkest-gray: #010507;
 
 $theme-colors: (
   "accent": $accent,
-  "dark-gray": $dark-gray
+  "dark-gray": $dark-gray,
+  "turqouise": $turqouise
 );
 
 $enable-gradients: true;

@@ -35,7 +35,7 @@
             </div>
             <div class="col-12 d-flex justify-content-center mt-5">
                 <button class="btn btn-lg btn-outline-light" id="mail-collapse-btn" data-toggle="collapse" data-target="#contact-collapse" aria-expanded="false" aria-controls="contact-collapse">
-                    Skicka mail nu
+                    Skicka mejl nu
                     <i class="fas fa-chevron-down"></i>
                 </button>
             </div>
@@ -48,7 +48,7 @@
 
                             <div class="col-12">
                                 <label for="subject">Ämne</label>
-                                <input type="text" name="subject" id="subject" value="Hej Work and passion" required/>
+                                <input type="text" name="subject" id="subject" value="Hej Work and Passion" required/>
                             </div>
                             <div class="col-12 my-5">
                                 <label for="message">Meddelande</label>
@@ -61,7 +61,7 @@
                                 <input type="text" name="name" id="name" required/>
                             </div>
                             <div class="col-12 col-md-6">
-                                <label for="email">E-post</label>
+                                <label for="email">Mejladress</label>
                                 <input type="email" name="email" id="email" required/>
                             </div>
 
