@@ -54,6 +54,6 @@
 
     <section class="sounds-fair d-flex flex-column align-items-center justify-content-center">
         <h2 class="display-2 mb-5">Låter rättvist</h2>
-        <a href="https://app.workandpassion.se/register"><button class="btn btn-lg btn-outline-light">Skapa en profil</button></a>
+        <a href="https://app.workandpassion.se/register" class="btn btn-outline-light register-btn">Skapa en profil</a>
     </section>
 @endsection

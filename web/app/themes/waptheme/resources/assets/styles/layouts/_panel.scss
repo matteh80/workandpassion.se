@@ -1,5 +1,5 @@
 $panel-triangle-size: 60px;
-$small-triangle-size: $panel-triangle-size / 2;
+$small-triangle-size: 30px;
 
 .wap-panel {
   position: relative;
@@ -41,12 +41,12 @@ $small-triangle-size: $panel-triangle-size / 2;
     &::after {
       content: '';
       position: absolute;
-      left: calc(50% - #{$panel-triangle-size});
-      top: -$panel-triangle-size;
+      left: calc(50% - #{$small-triangle-size});
+      top: -$small-triangle-size;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 0 $panel-triangle-size $panel-triangle-size $panel-triangle-size;
+      border-width: 0 $small-triangle-size $small-triangle-size $small-triangle-size;
       border-color: transparent;
     }
 
@@ -54,12 +54,12 @@ $small-triangle-size: $panel-triangle-size / 2;
       &::after {
         content: '';
         position: absolute;
-        left: calc(50% - #{$small-triangle-size});
-        top: -$small-triangle-size;
+        left: calc(50% - #{$panel-triangle-size});
+        top: -$panel-triangle-size;
         width: 0;
         height: 0;
         border-style: solid;
-        border-width: 0 $small-triangle-size $small-triangle-size $small-triangle-size;
+        border-width: 0 $panel-triangle-size $panel-triangle-size $panel-triangle-size;
         border-color: transparent;
       }
     }
