@@ -40,10 +40,15 @@
 <?php endif; ?>
 
 <?php if(!is_front_page() && !is_page_template('views/template-company.blade.php')): ?>
-<header class="banner" style="background-image: url(@asset('images/default-header-bg.jpg');)">
+<?php
+$thumbnail_url = \App\asset_path('images/default-header-bg.jpg');
+if(has_post_thumbnail()) {
+	$thumbnail_url = get_the_post_thumbnail_url();
+}
+?>
+<header class="banner" style="background-image: url({{$thumbnail_url}})">
     <div class="header-text d-flex justify-content-center align-items-center">
         <h3>{!! App::title() !!}</h3>
-        <h4><?php echo get_page_template_slug( get_the_ID() ); ?></h4>
     </div>
     <nav class="nav-primary navbar navbar-expand-lg">
         <div class="header-container container">
