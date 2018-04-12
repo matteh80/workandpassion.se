@@ -20,19 +20,6 @@
       gtag('config', 'UA-100067149-4');
     </script>
 
-    <!-- Global site tag (gtag.js) - Google AdWords: 809204708 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-809204708"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      gtag('js', new Date());
-      gtag('config', 'AW-809204708');
-    </script>
-
     <!-- Facebook Pixel Code -->
 
     <script>
