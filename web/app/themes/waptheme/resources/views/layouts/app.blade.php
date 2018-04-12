@@ -2,6 +2,7 @@
 <html @php(language_attributes())>
   @include('partials.head')
   <body @php(body_class())>
+    @include('partials.remarketing-tag')
     <div class="upper">
       @php(do_action('get_header'))
       @include('partials.header')
