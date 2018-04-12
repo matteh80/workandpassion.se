@@ -3,21 +3,6 @@ export default {
   init() {
     // JavaScript to be fired on all pages
 
-    function gtag_report_conversion(url) {
-      let callback = function () {
-        if (typeof(url) !== 'undefined') {
-          window.location = url;
-        }
-      };
-
-      gtag('event', 'conversion', {
-        'send_to': 'AW-809204708/CUchCMmW938Q5PftgQM',
-        'event_callback': callback,
-      });
-
-      return false;
-    }
-
     let $navPrimary = $('.nav-primary')
     // let $banner = $('.banner')
     let $window = $(window)
@@ -43,11 +28,6 @@ export default {
       } else {
         $navPrimary.removeClass('menu-visible')
       }
-    })
-
-    $('.register-btn').click(function(e) {
-      e.preventDefault()
-      gtag_report_conversion(e.target.href)
     })
   },
   finalize() {
