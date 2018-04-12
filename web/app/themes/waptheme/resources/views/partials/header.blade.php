@@ -41,7 +41,7 @@
 
 <?php if(!is_front_page() && !is_page_template('views/template-company.blade.php')): ?>
 <?php
-$thumbnail_url = \App\asset_path('images/default-header-bg.jpg');
+$thumbnail_url = \App\asset_path('images/default-header-bg-2.jpg');
 if(has_post_thumbnail()) {
 	$thumbnail_url = get_the_post_thumbnail_url();
 }
