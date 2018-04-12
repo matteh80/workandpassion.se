@@ -69,7 +69,7 @@ $small-triangle-size: 30px;
     color: #fff;
 
     .panel-content {
-      background: linear-gradient(to bottom, $primary 0%, darken($primary, 20%) 100%);
+      background: #50626d;
 
       .how-it-works-icon {
         max-width: auto;
@@ -80,7 +80,7 @@ $small-triangle-size: 30px;
       }
 
       &::after {
-        border-color: transparent transparent $primary;
+        border-color: transparent transparent #50626d;
       }
     }
   }

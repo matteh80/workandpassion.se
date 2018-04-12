@@ -1,4 +1,4 @@
-@extends('layouts.panel', ['panelimage' => @\App\asset_path("images/trees.jpg"), 'paneltitle' => 'Kontakt', 'panelclass' => 'candidate-contact'])
+@extends('layouts.panel', ['panelimage' => @\App\asset_path("images/stockholm.jpg"), 'paneltitle' => 'Kontakt', 'panelclass' => 'candidate-contact'])
 
 @section('panel-content')
     <div class="container py-5">

@@ -6,15 +6,11 @@
             </video>
         </div>
         <div class="header-text container-fluid d-flex flex-column justify-content-center align-items-center">
-            <h1 class="title text-center">Rätt jobb eller rätt person?</h1>
-            <h1 class="title text-center">Hitta båda här.</h1>
-            <h3 class="subtitle text-center">Matchning värd varje krona och sekund.</h3>
-            <div class="row buttons mt-5 w-100">
-                <div class="col-12 col-md-3 offset-md-3 col-lg-2 offset-lg-4 mb-2 mb-md-0">
-                    <a href="https://app.workandpassion.se/login" class="btn btn-lg btn-primary w-100 btn-lg btn-heading">Logga in</a>
-                </div>
+            <h1 class="title text-center">Matchning värd varje<br /> krona och sekund.</h1>
+            <h3 class="subtitle text-center">Få betalt för ditt CV.</h3>
+            <div class="row buttons mt-5 w-100 justify-content-center">
                 <div class="col-12 col-md-3 col-lg-2">
-                    <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-outline-light w-100 btn-lg btn-heading register-btn">Registrera dig</a>
+                    <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-accent w-100 btn-lg btn-heading register-btn">Registrera ditt CV</a>
                 </div>
             </div>
         </div>
