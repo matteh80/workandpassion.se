@@ -18,8 +18,8 @@
 
     @include('partials.panel-candidate-contact')
 
-    <section class="sounds-fair d-flex flex-column align-items-center justify-content-center">
-        <h2 class="display-2 mb-5">Låter rättvist</h2>
-        <a href="https://app.workandpassion.se/register" class="btn btn-outline-light register-btn">Skapa en profil</a>
-    </section>
+    {{--<section class="sounds-fair d-flex flex-column align-items-center justify-content-center">--}}
+        {{--<h2 class="display-2 mb-5">Låter rättvist</h2>--}}
+        {{--<a href="https://app.workandpassion.se/register" class="btn btn-outline-light register-btn">Skapa en profil</a>--}}
+    {{--</section>--}}
 @endsection
