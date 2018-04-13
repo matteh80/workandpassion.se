@@ -192,10 +192,10 @@
           &::before {
             content: '';
             width: 0;
-            background: $secondary;
             height: 2px;
             position: absolute;
             bottom: 0;
+            background: $secondary;
             transition: all 250ms;
           }
 
@@ -217,8 +217,9 @@
         }
 
         &.btn {
-          a {
-            //padding: 0.5rem 1rem !important;
+          a::after,
+          a::before {
+            display: none;
           }
         }
       }
