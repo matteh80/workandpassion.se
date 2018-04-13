@@ -23,7 +23,6 @@
 .banner .nav a {
   @extend .nav-link;
 
-  padding: 1rem;
   color: $gray-700;
 }
 
@@ -181,7 +180,7 @@
       }
 
       .menu-item {
-        margin: 0 1rem;
+        margin: 0 0.3rem;
 
         a {
           color: #fff;
@@ -214,6 +213,12 @@
             &::before {
               width: 50%;
             }
+          }
+        }
+
+        &.btn {
+          a {
+            //padding: 0.5rem 1rem !important;
           }
         }
       }

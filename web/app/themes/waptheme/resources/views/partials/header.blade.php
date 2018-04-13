@@ -94,8 +94,8 @@ if(has_post_thumbnail()) {
             </button>
 
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarSupportedContent">
-                @if (has_nav_menu('primary_navigation'))
-                    {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav mr-auto']) !!}
+                @if (has_nav_menu('company_navigation'))
+                    {!! wp_nav_menu(['theme_location' => 'company_navigation', 'menu_class' => 'nav navbar-nav mr-auto']) !!}
                 @endif
             </div>
         </div>
