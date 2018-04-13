@@ -75,7 +75,13 @@ if(has_post_thumbnail()) {
 <?php endif; ?>
 
 <?php if(is_page_template('views/template-company.blade.php')): ?>
-<header class="banner company-banner">
+<?php
+$thumbnail_url = \App\asset_path('images/tjej_dator.jpg');
+if(has_post_thumbnail()) {
+	$thumbnail_url = get_the_post_thumbnail_url();
+}
+?>
+<header class="banner company-banner" style="background-image: url({{$thumbnail_url}})">
     <div class="header-text d-flex flex-column justify-content-center align-items-center">
         <h1 class="title text-center">Att rekrytera kostar.</h1>
     </div>
