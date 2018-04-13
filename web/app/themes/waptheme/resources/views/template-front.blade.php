@@ -14,7 +14,7 @@
     @endwhile
 
 
-    @include('partials.panel-candidate-how-it-works')
+    {{--@include('partials.panel-candidate-how-it-works')--}}
 
     @include('partials.panel-candidate-contact')
 

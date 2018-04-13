@@ -9,7 +9,7 @@
     @include('partials.content-page')
     @endwhile
 
-    @include('partials.panel-company-how-it-works')
+    {{--@include('partials.panel-company-how-it-works')--}}
 
     @include('partials.panel-candidate-contact')
 @endsection
