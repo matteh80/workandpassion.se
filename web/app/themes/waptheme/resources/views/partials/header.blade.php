@@ -1,7 +1,7 @@
 <?php if(is_front_page()): ?>
 <header class="banner videobanner">
-        <div id="bgvid" style="background-image: url('@asset('images/man_startsidebild_mobil.jpg')')">
-            <video playsinline autoplay muted loop poster="@asset('images/man_startsidebild_mobil.jpg')" width="1920" height="1080">
+        <div id="bgvid" style="background-image: url('@asset('images/tjej_startsidebild_mobil.jpg')')">
+            <video playsinline autoplay muted loop poster="@asset('images/tjej_startsidebild_mobil.jpg')" width="1920" height="1080">
                 <source src="@asset('videos/startfilm.mp4')" type="video/mp4">
             </video>
         </div>

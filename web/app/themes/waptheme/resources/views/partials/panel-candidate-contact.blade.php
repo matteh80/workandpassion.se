@@ -1,7 +1,7 @@
 @extends('layouts.panel', ['panelimage' => @\App\asset_path("images/stockholm.jpg"), 'paneltitle' => 'Kontakt', 'panelclass' => 'candidate-contact'])
 
 @section('panel-content')
-    <div class="container py-5">
+    <div class="container">
         <div class="row">
             <div class="col-12 col-lg-10 offset-lg-1 social-icons-wrapper">
                 <div class="social-icons d-flex justify-content-center">
