@@ -216,6 +216,12 @@
         }
 
         &.btn {
+          color: #fff !important;
+
+          a {
+            color: #fff !important;
+          }
+
           a::after,
           a::before {
             display: none;
