@@ -7,6 +7,9 @@ export default {
     let $window = $(window)
 
     $window.scroll(function() {
+      let percent = $(window).scrollTop() / $('.front-header-image').outerHeight() * 100 + '%'
+      $('.front-header-image').css('background-position-y', percent)
+
       if ($window.scrollTop() >= $navPrimary.outerHeight()) {
         $navPrimary.addClass('fixed')
       } else {

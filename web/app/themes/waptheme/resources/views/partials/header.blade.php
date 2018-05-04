@@ -1,20 +1,18 @@
 <?php if(is_front_page()): ?>
 <header class="banner videobanner">
-        <div id="bgvid" style="background-image: url('@asset('images/tjej_startsidebild_mobil.jpg')')">
-            <video playsinline autoplay muted loop poster="@asset('images/tjej_startsidebild_mobil.jpg')" width="1920" height="1080">
-                <source src="@asset('videos/startfilm.mp4')" type="video/mp4">
-            </video>
-        </div>
-        <div class="header-text container-fluid d-flex flex-column justify-content-center align-items-center">
-            <h1 class="title text-center">Matchning värd varje<br /> krona och sekund.</h1>
-            <h3 class="subtitle text-center">Få betalt för ditt CV.</h3>
-            <div class="row buttons mt-5 w-100 justify-content-center">
-                <div class="col-12 col-md-3 col-lg-2">
-                    <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-accent w-100 btn-lg btn-heading register-btn">Registrera ditt CV</a>
-                </div>
-            </div>
+    <div class="front-header-image"></div>
+    <div class="header-text container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div>
+            <h1 class="title text-center">Värd lika mycket som ditt CV?</h1>
+            <h3 class="subtitle text-center">Tjäna pengar på ditt jobbsökande</h3>
         </div>
 
+        <div class="row buttons mt-5 w-100 justify-content-center">
+            <div class="col-12 col-md-3 col-lg-2">
+                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-accent w-100 btn-lg btn-heading register-btn">Registrera ditt CV</a>
+            </div>
+        </div>
+    </div>
     <nav class="nav-primary navbar navbar-expand-lg">
         <div class="header-container container">
             <a class="brand text-hide float-left on-transparent" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}
