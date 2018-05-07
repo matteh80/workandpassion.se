@@ -81,7 +81,7 @@ if(has_post_thumbnail()) {
 ?>
 <header class="banner company-banner" style="background-image: url({{$thumbnail_url}})">
     <div class="header-text d-flex flex-column justify-content-center align-items-center">
-        <h1 class="title text-center">Att rekrytera kostar.</h1>
+        <h1 class="title text-center">Kapa tid och spara pengar i ditt sökande efter kandidater.</h1>
     </div>
     <nav class="nav-primary navbar navbar-expand-lg">
         <div class="header-container container">
