@@ -64,19 +64,18 @@
     width: 100%;
     min-height: 100vh;
     height: 100vh;
-    background: url("../images/workandpassion_start_kamera.jpg") no-repeat;
+    background: url("../images/workandpassion_start_kamera.jpg") no-repeat center;
 
     @include media-breakpoint-up(lg) {
-      background: url("../images/workandpassion_start_kamera.jpg") no-repeat fixed;
+      background: url("../images/workandpassion_start_kamera.jpg") no-repeat fixed center;
     }
 
     background-size: auto 120%;
     background-position: 50% 0;
+    background-position-x: center;
   }
 
   #bgvid {
-    position: relative;
-
     @include media-breakpoint-up(lg) {
       position: fixed;
     }
