@@ -8,7 +8,7 @@
         </div>
 
         <div class="row buttons mt-5 w-100 justify-content-center">
-            <div class="col-12 col-md-3 col-lg-2">
+            <div>
                 <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-accent w-100 btn-lg btn-heading register-btn">Registrera ditt CV</a>
             </div>
         </div>
