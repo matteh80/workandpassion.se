@@ -34,7 +34,7 @@
                             <div class="contact-icon linkedin-icon">
                                 <i class="fab fa-linkedin"></i>
                             </div>
-                            <span class="social-text d-none d-md-block">/company/27107460</span>
+                            <span class="social-text d-none d-md-block">/company/workandpassion</span>
                         </a>
                     </div>
                 </div>
