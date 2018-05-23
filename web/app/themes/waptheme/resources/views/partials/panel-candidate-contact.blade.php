@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="social-item">
-                        <a href="https://www.linkedin.com/company/27107460/" class="d-flex align-items-center">
+                        <a href="https://www.linkedin.com/company/workandpassion/" class="d-flex align-items-center">
                             <div class="contact-icon linkedin-icon">
                                 <i class="fab fa-linkedin"></i>
                             </div>
