@@ -1,17 +1,7 @@
 <?php if(is_front_page()): ?>
-<header class="banner videobanner">
-    <div class="front-header-image"></div>
-    <div class="header-text container-fluid d-flex flex-column justify-content-center align-items-center">
-        <div>
-            <h1 class="title text-center">Värd lika mycket som ditt CV?</h1>
-            <h3 class="subtitle text-center">Tjäna pengar på ditt jobbsökande</h3>
-        </div>
-
-        <div class="row buttons mt-5 w-100 justify-content-center">
-            <div>
-                <a href="https://app.workandpassion.se/register" class="btn btn-lg btn-accent w-100 btn-lg btn-heading register-btn">Registrera ditt CV</a>
-            </div>
-        </div>
+<header class="banner sliderbanner">
+    <div class="sliderwrapper">
+	    <?php putRevSlider('Topp', 'homepage'); ?>
     </div>
     <nav class="nav-primary navbar navbar-expand-lg">
         <div class="header-container container">
