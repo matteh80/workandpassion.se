@@ -126,6 +126,7 @@
     .title {
       font-size: 2rem;
       font-weight: bold;
+      font-family: Montserrat, "Helvetica Neue", sans-serif;
 
       @include media-breakpoint-up(sm) {
         font-size: 3rem;
