@@ -30,7 +30,7 @@ add_filter('body_class', function (array $classes) {
  * Add "… Continued" to the excerpt
  */
 add_filter('excerpt_more', function () {
-    return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
+    return ' &hellip; <a href="' . get_permalink() . '">' . __('Läs mer', 'sage') . '</a>';
 });
 
 /**
@@ -68,3 +68,8 @@ add_filter('comments_template', function ($comments_template) {
     );
     return template_path(locate_template(["views/{$comments_template}", $comments_template]) ?: $comments_template);
 });
+
+function modify_read_more_link() {
+	return '<a class="more-link" href="' . get_permalink() . '">Läs mer</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
